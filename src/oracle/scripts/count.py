@@ -6,7 +6,8 @@ def count_chinese_chars(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         text = f.read()
 
-    chars = re.findall(r'[\u4e00-\u9fff\u3400-\u4dbf]', text)
+    #chars = re.findall(r'[\u4e00-\u9fff\u3400-\u4dbf]', text)
+    chars = re.findall(r'[a-z0-9/\\=-]', text)
     return Counter(chars).most_common()
 
 if __name__ == "__main__":

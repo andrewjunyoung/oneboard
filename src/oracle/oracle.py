@@ -14,6 +14,39 @@ def load_char_db():
     return pd.read_csv("data/char_db.csv")
 
 
+def show_longest_keys(dict_path, n=10):
+    entries = []
+    with open(dict_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            parts = line.strip().split('\t')
+            if len(parts) >= 2:
+                key = parts[0]
+                length = len(re.sub(r'[A-Z]', '', key))
+                entries.append((length, key, parts[1]))
+
+    all_keys = {e[1]: e[2] for e in entries}
+
+    def make_prefix(key):
+        non_caps = re.sub(r'[A-Z]', '', key)
+        if len(non_caps) <= 6:
+            return None
+        prefix = non_caps[:3]
+        m = re.search(r'[^A-Z][A-Z]*$', key)
+        if not m:
+            return None
+        return prefix + "'" + m.group()
+
+    entries.sort(reverse=True)
+    for length, key, char in entries[:n]:
+        prefix = make_prefix(key)
+        clash = ""
+        if prefix:
+            clashing = [(k, v) for k, v in all_keys.items() if k != key and make_prefix(k) == prefix]
+            if clashing:
+                clash = " ⚠ clashes with " + ", ".join(f"{k}({v})" for k, v in clashing)
+        print(f"{key}({char})\t({length}){' → ' + prefix if prefix else ''}{clash}")
+
+
 def load_stroke_encodings():
     encodings = {}
     with open('data/stroke_encodings.csv', 'r', encoding='utf-8') as f:
@@ -295,36 +328,43 @@ def gen_prefix_dict():
     for entry in entries:
         insert(entry, 1)
 
-    with open('dict_prefix.txt', 'w', encoding='utf-8') as f:
+    with open('output/smol_dict.txt', 'w', encoding='utf-8') as f:
         total = 0
         for prefix, entry in prefix_map.items():
             tag = entry[2] if len(entry) > 2 else '名詞'
             f.write(f"{prefix}\t{entry[1]}\t{tag}\n")
             total += 1
 
-    print(f"Generated dict_prefix.txt with {total} entries")
+    print(f"Generated smol_dict.txt with {total} entries")
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("command", nargs="?", help="Command to run (gen-dict, list-dupes, gen-tokens)")
     parser.add_argument("-t", action="store_true", help="Only include traditional characters")
     parser.add_argument("-s", action="store_true", help="Only include simplified characters")
-    parser.add_argument("--tokens", help="Path to tokens.csv", default="data/tokens.csv")
+    parser.add_argument(
+        "--tokens",
+        help="Path to token_db.csv",
+        default="data/token_db.csv"
+    )
     parser.add_argument("--use-strokes", help="Use the character's strokes as the code")
     parser.add_argument("-d", "--dict", help="Path to dictionary file", default="output/dict.txt")
     parser.add_argument("--ignore-variants", action="store_true", help="Ignore traditional/simplified variants when listing duplicates")
     parser.add_argument("-i", "--interactive", action="store_true", help="Enable interactive mode for encoding clashes")
+    parser.add_argument("-n", type=int, default=10)
 
     args = parser.parse_args()
 
     if args.command == "gen-dict":
         gen_dict(exclude_s=args.s, exclude_t=args.t)
         gen_prefix_dict()
-    elif args.command == "list-dupes":
+    elif args.command == "show-dupes":
         list_dupes(args.dict, args.ignore_variants)
     elif args.command == "gen-tokens":
         result_df = gen_tokens(args.interactive)
         return result_df
+    elif args.command == "show-longest":
+        show_longest_keys(args.dict, args.n)
     elif args.command == "update-encoding":
         result_df = update_encoding(args.tokens, args.use_strokes)
         print(result_df[["character", "composition", "retokenized"]].head(20))
