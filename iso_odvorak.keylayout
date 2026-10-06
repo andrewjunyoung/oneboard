@@ -1,0 +1,3192 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<keyboard group="126" id="-29012" name="oDvorak keyboard (iso)" maxout="4">
+    <layouts>
+        <layout first="0" last="0" mapSet="ANSI" modifiers="commonModifiers"/>
+    </layouts>
+    <modifierMap id="commonModifiers" defaultIndex="4">
+        <keyMapSelect mapIndex="0">
+            <modifier keys="anyShift? caps? command"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="1">
+            <modifier keys="anyShift caps?"/>
+            <modifier keys="anyShift? caps"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="2">
+            <modifier keys="anyOption"/>
+            <modifier keys="caps anyOption command?"/>
+            <modifier keys="caps? anyOption command"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="3">
+            <modifier keys="anyShift caps? anyOption command?"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="4">
+            <modifier keys=""/>
+            <modifier keys="caps anyOption? command?"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="5">
+            <modifier keys="anyOption? command"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="6">
+            <modifier keys="anyShift? caps? anyOption? anyControl"/>
+            <modifier keys="anyShift? anyOption? command? anyControl"/>
+            <modifier keys="anyShift caps anyOption command"/>
+            <modifier keys="anyShift caps command anyControl"/>
+            <modifier keys="caps anyOption command anyControl"/>
+            <modifier keys="anyShift caps anyOption command anyControl"/>
+            <modifier keys="anyShift caps anyOption? command anyControl"/>
+            <modifier keys="anyShift? caps anyOption command anyControl"/>
+            <modifier keys="caps? anyOption? command? anyControl"/>
+        </keyMapSelect>
+    </modifierMap>
+    <keyMapSet id="ANSI">
+        <keyMap index="0">
+            <key code="0" output="a"/>
+            <key code="1" output="o"/>
+            <key code="2" output="e"/>
+            <key code="3" output="u"/>
+            <key code="4" output="d"/>
+            <key code="5" output="i"/>
+            <key code="6" output="&#x0027;"/>
+            <key code="7" output="q"/>
+            <key code="8" output="j"/>
+            <key code="9" output="k"/>
+            <key code="10" output="§"/>
+            <key code="11" output="x"/>
+            <key code="12" output=";"/>
+            <key code="13" output=","/>
+            <key code="14" output="."/>
+            <key code="15" output="p"/>
+            <key code="16" output="f"/>
+            <key code="17" output="y"/>
+            <key code="18" output="1"/>
+            <key code="19" output="2"/>
+            <key code="20" output="3"/>
+            <key code="21" output="4"/>
+            <key code="22" output="6"/>
+            <key code="23" output="5"/>
+            <key code="24" output="]"/>
+            <key code="25" output="9"/>
+            <key code="26" output="7"/>
+            <key code="27" output="["/>
+            <key code="28" output="8"/>
+            <key code="29" output="0"/>
+            <key code="30" output="="/>
+            <key code="31" output="r"/>
+            <key code="32" output="g"/>
+            <key code="33" output="/"/>
+            <key code="34" output="c"/>
+            <key code="35" output="l"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output="n"/>
+            <key code="38" output="h"/>
+            <key code="39" output="-"/>
+            <key code="40" output="t"/>
+            <key code="41" output="s"/>
+            <key code="42" output="\"/>
+            <key code="43" output="w"/>
+            <key code="44" output="z"/>
+            <key code="45" output="b"/>
+            <key code="46" output="m"/>
+            <key code="47" output="v"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output=" "/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output=","/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="7"/>
+            <key code="84" output="8"/>
+            <key code="85" output="9"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="1"/>
+            <key code="91" output="2"/>
+            <key code="92" output="3"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="1">
+            <key code="0" action="A"/>
+            <key code="1" action="O"/>
+            <key code="2" action="E"/>
+            <key code="3" action="U"/>
+            <key code="4" action="D"/>
+            <key code="5" action="I"/>
+            <key code="6" action="&#x0022;"/>
+            <key code="7" action="Q"/>
+            <key code="8" action="J"/>
+            <key code="9" action="K"/>
+            <key code="10" output="·"/>
+            <key code="11" action="X"/>
+            <key code="12" action=":"/>
+            <key code="13" action="!"/>
+            <key code="14" action="?"/>
+            <key code="15" action="P"/>
+            <key code="16" action="F"/>
+            <key code="17" action="Y"/>
+            <key code="18" action="~"/>
+            <key code="19" action="@"/>
+            <key code="20" action="#"/>
+            <key code="21" action="$"/>
+            <key code="22" action="^"/>
+            <key code="23" action="%"/>
+            <key code="24" output="}"/>
+            <key code="25" action="("/>
+            <key code="26" action="&#x003C;"/>
+            <key code="27" output="{"/>
+            <key code="28" action="&#x003E;"/>
+            <key code="29" output="]"/>
+            <key code="30" action="+"/>
+            <key code="31" action="R"/>
+            <key code="32" action="G"/>
+            <key code="33" action="*"/>
+            <key code="34" action="C"/>
+            <key code="35" action="L"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="N"/>
+            <key code="38" action="H"/>
+            <key code="39" action="-"/>
+            <key code="40" action="T"/>
+            <key code="41" action="S"/>
+            <key code="42" action="|"/>
+            <key code="43" action="W"/>
+            <key code="44" action="Z"/>
+            <key code="45" action="B"/>
+            <key code="46" action="M"/>
+            <key code="47" action="V"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action=" "/>
+            <key code="50" action="&#x0026;"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output=","/>
+            <key code="66" output="*"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="+"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="="/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="/"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="7"/>
+            <key code="84" output="8"/>
+            <key code="85" output="9"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="1"/>
+            <key code="91" output="2"/>
+            <key code="92" output="3"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="2">
+            <key code="0" output=""/>
+            <key code="1" output="̊"/>
+            <key code="2" action="alt+e"/>
+            <key code="3" action="alt+u"/>
+            <key code="4" output=""/>
+            <key code="5" action="alt+i"/>
+            <key code="6" output=""/>
+            <key code="7" output=""/>
+            <key code="8" action="alt+j"/>
+            <key code="9" output=""/>
+            <key code="10" output="□"/>
+            <key code="11" action="alt+x"/>
+            <key code="12" action="alt+;"/>
+            <key code="13" action="alt+,"/>
+            <key code="14" action="alt+."/>
+            <key code="15" output=""/>
+            <key code="16" output=""/>
+            <key code="17" output=""/>
+            <key code="18" action="alt+1"/>
+            <key code="19" output=""/>
+            <key code="20" output=""/>
+            <key code="21" output=""/>
+            <key code="22" action="alt+6"/>
+            <key code="23" output=""/>
+            <key code="24" output="»"/>
+            <key code="25" output=""/>
+            <key code="26" action="alt+7"/>
+            <key code="27" output="«"/>
+            <key code="28" output=""/>
+            <key code="29" output="·"/>
+            <key code="30" action="math"/>
+            <key code="31" action="alt+r"/>
+            <key code="32" output=""/>
+            <key code="33" output="́"/>
+            <key code="34" output="̨"/>
+            <key code="35" action="alt+l"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output=""/>
+            <key code="38" action="alt+h"/>
+            <key code="39" action="alt+_"/>
+            <key code="40" action="alt+t"/>
+            <key code="41" action="alt+s"/>
+            <key code="42" output="̀"/>
+            <key code="43" output=""/>
+            <key code="44" output="̧"/>
+            <key code="45" output=""/>
+            <key code="46" output=""/>
+            <key code="47" action="alt+v"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action=" "/>
+            <key code="50" action="alt+`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output=","/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="7"/>
+            <key code="84" output="8"/>
+            <key code="85" output="9"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="1"/>
+            <key code="91" output="2"/>
+            <key code="92" output="3"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="3">
+            <key code="0" action="alt+A"/>
+            <key code="1" output="̥"/>
+            <key code="2" output=""/>
+            <key code="3" output="̑"/>
+            <key code="4" output=""/>
+            <key code="5" output=""/>
+            <key code="6" output=""/>
+            <key code="7" output=""/>
+            <key code="8" action="alt+J"/>
+            <key code="9" output=""/>
+            <key code="10" output=""/>
+            <key code="11" action="alt+X"/>
+            <key code="12" output=""/>
+            <key code="13" action="alt+!"/>
+            <key code="14" output="̣"/>
+            <key code="15" output=""/>
+            <key code="16" output=""/>
+            <key code="17" output=""/>
+            <key code="18" output=""/>
+            <key code="19" output=""/>
+            <key code="20" output=""/>
+            <key code="21" output=""/>
+            <key code="22" output="̭"/>
+            <key code="23" output=""/>
+            <key code="24" output=""/>
+            <key code="25" output=""/>
+            <key code="26" output=""/>
+            <key code="27" output="—"/>
+            <key code="28" output=""/>
+            <key code="29" output="∞"/>
+            <key code="30" output=""/>
+            <key code="31" action="alt+R"/>
+            <key code="32" output=""/>
+            <key code="33" output="̋"/>
+            <key code="34" output="̉"/>
+            <key code="35" output=""/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output=""/>
+            <key code="38" output=""/>
+            <key code="39" output="̱"/>
+            <key code="40" action="alt+T"/>
+            <key code="41" output=""/>
+            <key code="42" output="̏"/>
+            <key code="43" output=""/>
+            <key code="44" output=""/>
+            <key code="45" output=""/>
+            <key code="46" output=""/>
+            <key code="47" output=""/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action=" "/>
+            <key code="50" output="̰"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output=","/>
+            <key code="66" output="*"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="+"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="="/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="/"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="7"/>
+            <key code="84" output="8"/>
+            <key code="85" output="9"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="1"/>
+            <key code="91" output="2"/>
+            <key code="92" output="3"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="4">
+            <key code="0" action="a"/>
+            <key code="1" action="o"/>
+            <key code="2" action="e"/>
+            <key code="3" action="u"/>
+            <key code="4" action="d"/>
+            <key code="5" action="i"/>
+            <key code="6" action="&#x0027;"/>
+            <key code="7" action="q"/>
+            <key code="8" action="j"/>
+            <key code="9" action="k"/>
+            <key code="10" output="±"/>
+            <key code="11" action="x"/>
+            <key code="12" action=";"/>
+            <key code="13" action=","/>
+            <key code="14" action="."/>
+            <key code="15" action="p"/>
+            <key code="16" action="f"/>
+            <key code="17" action="y"/>
+            <key code="18" action="1"/>
+            <key code="19" action="2"/>
+            <key code="20" action="3"/>
+            <key code="21" action="4"/>
+            <key code="22" action="6"/>
+            <key code="23" action="5"/>
+            <key code="24" output=")"/>
+            <key code="25" action="9"/>
+            <key code="26" action="7"/>
+            <key code="27" output="("/>
+            <key code="28" action="8"/>
+            <key code="29" action="0"/>
+            <key code="30" action="="/>
+            <key code="31" action="r"/>
+            <key code="32" action="g"/>
+            <key code="33" action="/"/>
+            <key code="34" action="c"/>
+            <key code="35" action="l"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="n"/>
+            <key code="38" action="h"/>
+            <key code="39" action="_"/>
+            <key code="40" action="t"/>
+            <key code="41" action="s"/>
+            <key code="42" action="\"/>
+            <key code="43" action="w"/>
+            <key code="44" action="z"/>
+            <key code="45" action="b"/>
+            <key code="46" action="m"/>
+            <key code="47" action="v"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action=" "/>
+            <key code="50" action="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output=","/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="7"/>
+            <key code="84" output="8"/>
+            <key code="85" output="9"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="1"/>
+            <key code="91" output="2"/>
+            <key code="92" output="3"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="5">
+            <key code="0" output="a"/>
+            <key code="1" output="o"/>
+            <key code="2" output="e"/>
+            <key code="3" output="u"/>
+            <key code="4" output="d"/>
+            <key code="5" output="i"/>
+            <key code="6" output="&#x0027;"/>
+            <key code="7" output="q"/>
+            <key code="8" output="j"/>
+            <key code="9" output="k"/>
+            <key code="10" output=""/>
+            <key code="11" output="x"/>
+            <key code="12" output=";"/>
+            <key code="13" output=","/>
+            <key code="14" output="."/>
+            <key code="15" output="p"/>
+            <key code="16" output="f"/>
+            <key code="17" output="y"/>
+            <key code="18" output="1"/>
+            <key code="19" output="2"/>
+            <key code="20" output="3"/>
+            <key code="21" output="4"/>
+            <key code="22" output="6"/>
+            <key code="23" output="5"/>
+            <key code="24" output="]"/>
+            <key code="25" output="9"/>
+            <key code="26" output="7"/>
+            <key code="27" output="["/>
+            <key code="28" output="8"/>
+            <key code="29" output="0"/>
+            <key code="30" output="="/>
+            <key code="31" output="r"/>
+            <key code="32" output="g"/>
+            <key code="33" output="/"/>
+            <key code="34" output="c"/>
+            <key code="35" output="l"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output="n"/>
+            <key code="38" output="h"/>
+            <key code="39" output="-"/>
+            <key code="40" output="t"/>
+            <key code="41" output="s"/>
+            <key code="42" output="\"/>
+            <key code="43" output="w"/>
+            <key code="44" output="z"/>
+            <key code="45" output="b"/>
+            <key code="46" output="m"/>
+            <key code="47" output="v"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output=" "/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output=","/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="7"/>
+            <key code="84" output="8"/>
+            <key code="85" output="9"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="1"/>
+            <key code="91" output="2"/>
+            <key code="92" output="3"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="6">
+            <key code="0" action="arab"/>
+            <key code="1" output=""/>
+            <key code="2" action="grek"/>
+            <key code="3" output=""/>
+            <key code="4" action="deva"/>
+            <key code="5" action="ctrl+i"/>
+            <key code="6" output=""/>
+            <key code="7" action="geor"/>
+            <key code="8" action="ctrl+j"/>
+            <key code="9" action="khmr"/>
+            <key code="10" output=""/>
+            <key code="11" output=""/>
+            <key code="12" output=""/>
+            <key code="13" output=""/>
+            <key code="14" output=""/>
+            <key code="15" action="tibt"/>
+            <key code="16" output=""/>
+            <key code="17" output=""/>
+            <key code="18" output=""/>
+            <key code="19" output=""/>
+            <key code="20" output=""/>
+            <key code="21" output=""/>
+            <key code="22" action="mymr"/>
+            <key code="23" output=""/>
+            <key code="24" output=""/>
+            <key code="25" output=""/>
+            <key code="26" action="taml"/>
+            <key code="27" output="&#x001F;"/>
+            <key code="28" action="thaa"/>
+            <key code="29" output=""/>
+            <key code="30" output=""/>
+            <key code="31" action="armn"/>
+            <key code="32" action="geez"/>
+            <key code="33" output=""/>
+            <key code="34" action="cyrl"/>
+            <key code="35" action="laoo"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output=""/>
+            <key code="38" action="hebr"/>
+            <key code="39" output=""/>
+            <key code="40" action="tfng"/>
+            <key code="41" action="sinh"/>
+            <key code="42" output=""/>
+            <key code="43" output=""/>
+            <key code="44" output=""/>
+            <key code="45" action="beng"/>
+            <key code="46" action="mong"/>
+            <key code="47" output=""/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output=" "/>
+            <key code="50" output=""/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output=""/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output=""/>
+            <key code="69" output=""/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output=""/>
+            <key code="82" output=""/>
+            <key code="83" output=""/>
+            <key code="84" action="thai"/>
+            <key code="85" output=""/>
+            <key code="86" output=""/>
+            <key code="87" output=""/>
+            <key code="88" output=""/>
+            <key code="89" output=""/>
+            <key code="91" output=""/>
+            <key code="92" output=""/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+    </keyMapSet>
+    <actions>
+        <action id=" ">
+            <when state="none" output=" "/>
+            <when state="arab" next="arab" output=" "/>
+            <when state="armn" next="armn" output=" "/>
+            <when state="armn_2" next="armn_2" output=" "/>
+            <when state="beng" next="beng" output=" "/>
+            <when state="cans" next="cans" output=" "/>
+            <when state="cyrl" next="cyrl" output=" "/>
+            <when state="deva" next="deva" output=" "/>
+            <when state="geez" next="geez" output=" "/>
+            <when state="geor" next="geor" output=" "/>
+            <when state="grek" next="grek" output=" "/>
+            <when state="hebr" next="hebr" output=" "/>
+            <when state="hrkt" next="hrkt" output="　"/>
+            <when state="khmr" next="khmr" output=" "/>
+            <when state="laoo" next="laoo" output=" "/>
+            <when state="math" next="math" output=" "/>
+            <when state="mong" next="mong" output=" "/>
+            <when state="mymr" next="mymr" output=" "/>
+            <when state="sinh" next="sinh" output=" "/>
+            <when state="taml" next="taml" output=" "/>
+            <when state="tfng" next="tfng" output=" "/>
+            <when state="thaa" next="thaa" output=" "/>
+            <when state="thai" next="thai" output=" "/>
+            <when state="tibt" next="tibt" output=" "/>
+        </action>
+        <action id="arab">
+            <when state="none" next="arab"/>
+        </action>
+        <action id="cyrl">
+            <when state="none" next="cyrl"/>
+        </action>
+        <action id="hebr">
+            <when state="none" next="hebr"/>
+        </action>
+        <action id="grek">
+            <when state="none" next="grek"/>
+        </action>
+        <action id="mong">
+            <when state="none" next="mong"/>
+        </action>
+        <action id="armn">
+            <when state="none" next="armn"/>
+        </action>
+        <action id="geor">
+            <when state="none" next="geor"/>
+        </action>
+        <action id="!">
+            <when state="none" output="!"/>
+            <when state="deva" next="deva" output="ी"/>
+            <when state="hrkt" output="！"/>
+            <when state="latn_extensions" output="¡"/>
+            <when state="latn_rotated_lower" output="¡"/>
+        </action>
+        <action id="&#x0022;">
+            <when state="none" output=";"/>
+            <when state="armn" next="armn" output="Չ"/>
+            <when state="cyrl" next="cyrl" output="ъ"/>
+            <when state="deva" next="deva" output="ो"/>
+            <when state="tibt" next="tibt" output="ཉ"/>
+        </action>
+        <action id="#">
+            <when state="none" output="#"/>
+            <when state="deva" next="deva" output="ी"/>
+        </action>
+        <action id="$">
+            <when state="none" output="$"/>
+            <when state="deva" next="deva" output="े"/>
+        </action>
+        <action id="%">
+            <when state="none" output="%"/>
+            <when state="deva" next="deva" output="ो"/>
+        </action>
+        <action id="&#x0026;">
+            <when state="none" output="~"/>
+            <when state="math" output="≈"/>
+            <when state="armn" next="armn" output="Ց"/>
+        </action>
+        <action id="&#x0027;">
+            <when state="none" output="&#x0027;"/>
+            <when state="arab" next="arab" output="ع"/>
+            <when state="armn" next="armn" output="չ"/>
+            <when state="arrows_basic_dvorak" output="↙"/>
+            <when state="cyrl" next="cyrl" output="ь"/>
+            <when state="deva" next="deva" output="े"/>
+            <when state="laoo" next="laoo" output="ອ"/>
+            <when state="thaa" next="thaa" output="އ"/>
+            <when state="tibt" next="tibt" output="ང"/>
+        </action>
+        <action id="(">
+            <when state="none" output="["/>
+            <when state="arab" next="arab" output="ض"/>
+            <when state="deva" next="deva" output="ू"/>
+        </action>
+        <action id="*">
+            <when state="none" output="*"/>
+            <when state="deva" next="deva" output="ॢ"/>
+        </action>
+        <action id="+">
+            <when state="none" output="+"/>
+            <when state="armn" next="armn" output="և"/>
+            <when state="deva" next="deva" output="ॄ"/>
+            <when state="math" output="±"/>
+        </action>
+        <action id=",">
+            <when state="none" output=","/>
+            <when state="arrows_basic_dvorak" output="↑"/>
+            <when state="deva" next="deva" output="ि"/>
+            <when state="mong" next="mong" output="᠂"/>
+        </action>
+        <action id="-">
+            <when state="none" output="_"/>
+            <when state="cyrl_i" output="й"/>
+            <when state="armn" output="Ը"/>
+            <when state="mong" next="mong" output="᠊"/>
+        </action>
+        <action id=".">
+            <when state="none" output="."/>
+            <when state="arrows_basic_dvorak" output="↗"/>
+            <when state="deva" next="deva" output="ं"/>
+            <when state="hrkt" next="hrkt" output="。"/>
+            <when state="hebr" next="hebr_dagesh"/>
+            <when state="mong" next="mong" output="᠃"/>
+        </action>
+        <action id="/">
+            <when state="none" output="/"/>
+            <when state="deva" next="deva" output="ऌ"/>
+            <when state="mong" next="mong" output="᠀"/>
+            <when state="math" output="≠"/>
+        </action>
+        <action id="0">
+            <when state="none" output="0"/>
+            <when state="arab" next="arab" output="٠"/>
+            <when state="bengali" next="bengali" output="০"/>
+            <when state="burmese" next="burmese" output="၀"/>
+            <when state="deva" next="deva" output="०"/>
+            <when state="khmer" next="khmer" output="០"/>
+            <when state="laoo" next="laoo" output="໐"/>
+            <when state="mong" next="mong" output="᠐"/>
+            <when state="tamil" next="tamil" output="௦"/>
+            <when state="thai" next="thai" output="๐"/>
+            <when state="tibt" next="tibt" output="༠"/>
+        </action>
+        <action id="1">
+            <when state="none" output="1"/>
+            <when state="arab" next="arab" output="١"/>
+            <when state="bengali" next="bengali" output="১"/>
+            <when state="burmese" next="burmese" output="၁"/>
+            <when state="cyrl" next="cyrl_1"/>
+            <when state="deva" next="deva" output="१"/>
+            <when state="khmer" next="khmer" output="១"/>
+            <when state="laoo" next="laoo" output="໑"/>
+            <when state="latn_tones" output="˩"/>
+            <when state="mong" next="mong" output="᠑"/>
+            <when state="tamil" next="tamil" output="௧"/>
+            <when state="thai" next="thai" output="๑"/>
+            <when state="tibt" next="tibt" output="༡"/>
+        </action>
+        <action id="2">
+            <when state="none" output="2"/>
+            <when state="arab" next="arab" output="٢"/>
+            <when state="bengali" next="bengali" output="২"/>
+            <when state="burmese" next="burmese" output="၂"/>
+            <when state="cyrl" next="cyrl_2"/>
+            <when state="deva" next="deva" output="२"/>
+            <when state="khmer" next="khmer" output="២"/>
+            <when state="laoo" next="laoo" output="໒"/>
+            <when state="latn_extensions" output="ƨ"/>
+            <when state="latn_tones" output="˨"/>
+            <when state="mong" next="mong" output="᠒"/>
+            <when state="tamil" next="tamil" output="௨"/>
+            <when state="thai" next="thai" output="๒"/>
+            <when state="tibt" next="tibt" output="༢"/>
+        </action>
+        <action id="3">
+            <when state="none" output="3"/>
+            <when state="arab" next="arab" output="٣"/>
+            <when state="bengali" next="bengali" output="৩"/>
+            <when state="burmese" next="burmese" output="၃"/>
+            <when state="deva" next="deva" output="३"/>
+            <when state="khmer" next="khmer" output="៣"/>
+            <when state="laoo" next="laoo" output="໓"/>
+            <when state="latn_extensions" output="з"/>
+            <when state="latn_tones" output="˧"/>
+            <when state="math" output="△"/>
+            <when state="mong" next="mong" output="᠓"/>
+            <when state="tamil" next="tamil" output="௩"/>
+            <when state="thai" next="thai" output="๓"/>
+            <when state="tibt" next="tibt" output="༣"/>
+        </action>
+        <action id="4">
+            <when state="none" output="4"/>
+            <when state="arab" next="arab" output="٤"/>
+            <when state="bengali" next="bengali" output="৪"/>
+            <when state="burmese" next="burmese" output="၄"/>
+            <when state="deva" next="deva" output="४"/>
+            <when state="khmer" next="khmer" output="៤"/>
+            <when state="laoo" next="laoo" output="໔"/>
+            <when state="latn_extensions" output="ч"/>
+            <when state="latn_tones" output="˦"/>
+            <when state="math" output="□"/>
+            <when state="mong" next="mong" output="᠔"/>
+            <when state="tamil" next="tamil" output="௪"/>
+            <when state="thai" next="thai" output="๔"/>
+            <when state="tibt" next="tibt" output="༤"/>
+        </action>
+        <action id="5">
+            <when state="none" output="5"/>
+            <when state="arab" next="arab" output="٥"/>
+            <when state="bengali" next="bengali" output="৫"/>
+            <when state="burmese" next="burmese" output="၅"/>
+            <when state="deva" next="deva" output="५"/>
+            <when state="khmer" next="khmer" output="៥"/>
+            <when state="laoo" next="laoo" output="໕"/>
+            <when state="latn_extensions" output="ƽ"/>
+            <when state="latn_tones" output="˥"/>
+            <when state="math" output="☆"/>
+            <when state="mong" next="mong" output="᠕"/>
+            <when state="tamil" next="tamil" output="௫"/>
+            <when state="thai" next="thai" output="๕"/>
+            <when state="tibt" next="tibt" output="༥"/>
+        </action>
+        <action id="6">
+            <when state="none" output="6"/>
+            <when state="arab" next="arab" output="٦"/>
+            <when state="bengali" next="bengali" output="৬"/>
+            <when state="burmese" next="burmese" output="၆"/>
+            <when state="deva" next="deva" output="६"/>
+            <when state="khmer" next="khmer" output="៦"/>
+            <when state="laoo" next="laoo" output="໖"/>
+            <when state="latn_extensions" output="ƅ"/>
+            <when state="mong" next="mong" output="᠖"/>
+            <when state="tamil" next="tamil" output="௬"/>
+            <when state="thai" next="thai" output="๖"/>
+            <when state="tibt" next="tibt" output="༦"/>
+        </action>
+        <action id="7">
+            <when state="none" output="7"/>
+            <when state="arab" next="arab" output="٧"/>
+            <when state="bengali" next="bengali" output="৭"/>
+            <when state="burmese" next="burmese" output="၇"/>
+            <when state="deva" next="deva" output="७"/>
+            <when state="khmer" next="khmer" output="៧"/>
+            <when state="laoo" next="laoo" output="໗"/>
+            <when state="latn_extensions" output="ʔ"/>
+            <when state="mong" next="mong" output="᠗"/>
+            <when state="tamil" next="tamil" output="௭"/>
+            <when state="thai" next="thai" output="๗"/>
+            <when state="tibt" next="tibt" output="༧"/>
+        </action>
+        <action id="8">
+            <when state="none" output="8"/>
+            <when state="arab" next="arab" output="٨"/>
+            <when state="bengali" next="bengali" output="৮"/>
+            <when state="burmese" next="burmese" output="၈"/>
+            <when state="deva" next="deva" output="८"/>
+            <when state="khmer" next="khmer" output="៨"/>
+            <when state="laoo" next="laoo" output="໘"/>
+            <when state="math" output="∞"/>
+            <when state="mong" next="mong" output="᠘"/>
+            <when state="tamil" next="tamil" output="௮"/>
+            <when state="thai" next="thai" output="๘"/>
+            <when state="tibt" next="tibt" output="༨"/>
+        </action>
+        <action id="9">
+            <when state="none" output="9"/>
+            <when state="arab" next="arab" output="٩"/>
+            <when state="bengali" next="bengali" output="৯"/>
+            <when state="burmese" next="burmese" output="၉"/>
+            <when state="deva" next="deva" output="९"/>
+            <when state="khmer" next="khmer" output="៩"/>
+            <when state="laoo" next="laoo" output="໙"/>
+            <when state="mong" next="mong" output="᠙"/>
+            <when state="tamil" next="tamil" output="௯"/>
+            <when state="thai" next="thai" output="๙"/>
+            <when state="tibt" next="tibt" output="༩"/>
+        </action>
+        <action id=":">
+            <when state="none" output=":"/>
+            <when state="deva" next="deva" output="ः"/>
+            <when state="mong" next="mong" output="᠄"/>
+            <when state="arab" next="arab" output="&#x064C;"/>
+        </action>
+        <action id=";">
+            <when state="none" output="&#x0022;"/>
+            <when state="armn" next="armn_2"/>
+            <when state="arrows_basic_dvorak" output="↖"/>
+            <when state="deva" next="deva" output="ः"/>
+            <when state="mong" next="mong" output="᠁"/>
+        </action>
+        <action id="&#x003C;">
+            <when state="none" output="&#x003C;"/>
+            <when state="math" output="≤"/>
+            <when state="deva" next="deva" output="ौ"/>
+        </action>
+        <action id="=">
+            <when state="none" output="="/>
+            <when state="deva" next="deva" output="ळ"/>
+            <when state="hrkt" next="hrkt" output="＝"/>
+            <when state="math" output="≒"/>
+        </action>
+        <action id="&#x003E;">
+            <when state="none" output="&#x003E;"/>
+            <when state="math" output="≥"/>
+            <when state="deva" next="deva" output="ु"/>
+        </action>
+        <action id="?">
+            <when state="none" output="?"/>
+            <when state="arab" next="arab" output="؟"/>
+            <when state="hrkt" output="？"/>
+            <when state="latn_extensions" output="¿"/>
+            <when state="latn_rotated_lower" output="¿"/>
+        </action>
+        <action id="@">
+            <when state="none" output="@"/>
+            <when state="deva" next="deva" output="ि"/>
+        </action>
+        <action id="A">
+            <when state="none" output="A"/>
+            <when state="arab" next="arab" output="ى"/>
+            <when state="armn" output="Ա"/>
+            <when state="cyrl" next="cyrl" output="А"/>
+            <when state="cyrl_1" next="cyrl" output="Ѫ"/>
+            <when state="cyrl_2" next="cyrl" output="Ә"/>
+            <when state="cyrl_i" next="cyrl" output="Я"/>
+            <when state="deva" next="deva" output="ा"/>
+            <when state="grek" next="grek" output="Α"/>
+            <when state="hrkt" next="hrkt" output="ア"/>
+            <when state="hrkt_B" next="hrkt" output="バ"/>
+            <when state="hrkt_D" next="hrkt" output="ダ"/>
+            <when state="hrkt_G" next="hrkt" output="ガ"/>
+            <when state="hrkt_H" next="hrkt" output="ハ"/>
+            <when state="hrkt_K" next="hrkt" output="カ"/>
+            <when state="hrkt_M" next="hrkt" output="マ"/>
+            <when state="hrkt_N" next="hrkt" output="ナ"/>
+            <when state="hrkt_P" next="hrkt" output="パ"/>
+            <when state="hrkt_R" next="hrkt" output="ラ"/>
+            <when state="hrkt_S" next="hrkt" output="サ"/>
+            <when state="hrkt_T" next="hrkt" output="タ"/>
+            <when state="hrkt_W" next="hrkt" output="ワ"/>
+            <when state="hrkt_Y" next="hrkt" output="ヤ"/>
+            <when state="hrkt_Z" next="hrkt" output="ザ"/>
+            <when state="latn_e" output="Æ"/>
+            <when state="latn_extensions" output="Ɑ"/>
+            <when state="latn_rotated_lower" output="Ɐ"/>
+            <when state="latn_rotated_upper" output="Ɐ"/>
+            <when state="latn_slash" output="Ⱥ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴀ"/>
+            <when state="thaa" next="thaa" output="ާ"/>
+            <when state="hrkt_b" next="hrkt" output="ば"/>
+            <when state="hrkt_d" next="hrkt" output="だ"/>
+            <when state="hrkt_g" next="hrkt" output="が"/>
+            <when state="hrkt_h" next="hrkt" output="は"/>
+            <when state="hrkt_k" next="hrkt" output="か"/>
+            <when state="hrkt_m" next="hrkt" output="ま"/>
+            <when state="hrkt_n" next="hrkt" output="な"/>
+            <when state="hrkt_p" next="hrkt" output="ぱ"/>
+            <when state="hrkt_r" next="hrkt" output="ら"/>
+            <when state="hrkt_s" next="hrkt" output="さ"/>
+            <when state="hrkt_t" next="hrkt" output="た"/>
+            <when state="hrkt_w" next="hrkt" output="わ"/>
+            <when state="hrkt_y" next="hrkt" output="や"/>
+            <when state="hrkt_z" next="hrkt" output="ざ"/>
+        </action>
+        <action id="B">
+            <when state="none" output="B"/>
+            <when state="armn" output="Բ"/>
+            <when state="beng" next="beng" output="ভ"/>
+            <when state="cyrl" next="cyrl" output="Б"/>
+            <when state="deva" next="deva" output="भ"/>
+            <when state="grek" next="grek" output="Β"/>
+            <when state="hrkt" next="hrkt_B"/>
+            <when state="khmr" next="khmr" output="ភ"/>
+            <when state="latn_bar" output="Ƀ"/>
+            <when state="latn_rotated_lower" output="Q"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ʙ"/>
+            <when state="mymr" next="mymr" output="ဘ"/>
+            <when state="sinh" next="sinh" output="භ"/>
+            <when state="tfng" next="tfng" output="ⴲ"/>
+            <when state="thai" next="thai" output="ภ"/>
+        </action>
+        <action id="C">
+            <when state="none" output="C"/>
+            <when state="arab" next="arab" output="چ"/>
+            <when state="armn" output="Ծ"/>
+            <when state="armn_2" output="Ճ"/>
+            <when state="beng" next="beng" output="ছ"/>
+            <when state="cyrl" next="cyrl" output="Ц"/>
+            <when state="cyrl_1" next="cyrl" output="Ч"/>
+            <when state="cyrl_2" next="cyrl" output="Ћ"/>
+            <when state="cyrl_descender" next="cyrl" output="Ҷ"/>
+            <when state="cyrl_stroke" next="cyrl" output="Ҵ"/>
+            <when state="deva" next="deva" output="छ"/>
+            <when state="geor" output="ჩ"/>
+            <when state="grek" next="grek" output="Ξ"/>
+            <when state="khmr" next="khmr" output="ឆ"/>
+            <when state="latn_bar" output="Ꞓ"/>
+            <when state="latn_rotated_lower" output="Ɔ"/>
+            <when state="latn_rotated_upper" output="Ɔ"/>
+            <when state="latn_slash" output="Ȼ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴄ"/>
+            <when state="mong" next="mong" output="ᠼ"/>
+            <when state="mymr" next="mymr" output="ဆ"/>
+            <when state="sinh" next="sinh" output="ඡ"/>
+            <when state="taml" next="taml" output="ச"/>
+            <when state="thai" next="thai" output="ฉ"/>
+        </action>
+        <action id="D">
+            <when state="none" output="D"/>
+            <when state="arab" next="arab" output="ض"/>
+            <when state="armn" output="Դ"/>
+            <when state="beng" next="beng" output="ধ"/>
+            <when state="cyrl" next="cyrl" output="Д"/>
+            <when state="cyrl_1" next="cyrl" output="Џ"/>
+            <when state="cyrl_stroke" next="cyrl" output="Ђ"/>
+            <when state="deva" next="deva" output="ध"/>
+            <when state="grek" next="grek" output="Δ"/>
+            <when state="hrkt" next="hrkt_D"/>
+            <when state="khmr" next="khmr" output="ធ"/>
+            <when state="latn_bar" output="Đ"/>
+            <when state="latn_rotated_lower" output="P"/>
+            <when state="latn_slash" output="Ð"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴅ"/>
+            <when state="math" output="∇"/>
+            <when state="mymr" next="mymr" output="ဓ"/>
+            <when state="sinh" next="sinh" output="ධ"/>
+            <when state="taml" next="taml" output="த"/>
+            <when state="tfng" next="tfng" output="ⴹ"/>
+            <when state="thai" next="thai" output="ธ"/>
+        </action>
+        <action id="E">
+            <when state="none" output="E"/>
+            <when state="arab" next="arab" output="ے"/>
+            <when state="armn" output="E"/>
+            <when state="armn_2" output="Է"/>
+            <when state="cyrl" next="cyrl" output="Е"/>
+            <when state="cyrl_1" next="cyrl" output="Э"/>
+            <when state="cyrl_2" next="cyrl" output="Ѣ"/>
+            <when state="cyrl_i" next="cyrl" output="Є"/>
+            <when state="grek" next="grek" output="Ε"/>
+            <when state="hrkt" next="hrkt" output="エ"/>
+            <when state="hrkt_B" next="hrkt" output="ベ"/>
+            <when state="hrkt_D" next="hrkt" output="デ"/>
+            <when state="hrkt_G" next="hrkt" output="ゲ"/>
+            <when state="hrkt_H" next="hrkt" output="ヘ"/>
+            <when state="hrkt_K" next="hrkt" output="ケ"/>
+            <when state="hrkt_M" next="hrkt" output="メ"/>
+            <when state="hrkt_N" next="hrkt" output="ネ"/>
+            <when state="hrkt_P" next="hrkt" output="ペ"/>
+            <when state="hrkt_R" next="hrkt" output="レ"/>
+            <when state="hrkt_S" next="hrkt" output="セ"/>
+            <when state="hrkt_T" next="hrkt" output="テ"/>
+            <when state="hrkt_Z" next="hrkt" output="ゼ"/>
+            <when state="latn_extensions" output="Ɛ"/>
+            <when state="latn_rotated_lower" output="Ə"/>
+            <when state="latn_rotated_upper" output="Ǝ"/>
+            <when state="latn_slash" output="Ɇ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴇ"/>
+            <when state="mong" next="mong" output="ᠧ"/>
+            <when state="tfng" next="tfng" output="ⵄ"/>
+            <when state="thaa" next="thaa" output="ޭ"/>
+            <when state="hrkt_b" next="hrkt" output="べ"/>
+            <when state="hrkt_d" next="hrkt" output="で"/>
+            <when state="hrkt_g" next="hrkt" output="げ"/>
+            <when state="hrkt_h" next="hrkt" output="へ"/>
+            <when state="hrkt_k" next="hrkt" output="け"/>
+            <when state="hrkt_m" next="hrkt" output="め"/>
+            <when state="hrkt_n" next="hrkt" output="ね"/>
+            <when state="hrkt_p" next="hrkt" output="ぺ"/>
+            <when state="hrkt_r" next="hrkt" output="れ"/>
+            <when state="hrkt_s" next="hrkt" output="せ"/>
+            <when state="hrkt_t" next="hrkt" output="て"/>
+            <when state="hrkt_z" next="hrkt" output="ぜ"/>
+        </action>
+        <action id="F">
+            <when state="none" output="F"/>
+            <when state="arab" next="arab" output="ڤ"/>
+            <when state="armn" output="Ֆ"/>
+            <when state="cyrl" next="cyrl" output="Ф"/>
+            <when state="grek" next="grek" output="Φ"/>
+            <when state="laoo" next="laoo" output="ຟ"/>
+            <when state="latn_extensions" output="Ƒ"/>
+            <when state="latn_hook_palatal" output="Ƒ"/>
+            <when state="latn_rotated_upper" output="Ⅎ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ꜰ"/>
+        </action>
+        <action id="G">
+            <when state="none" output="G"/>
+            <when state="arab" next="arab" output="گ"/>
+            <when state="armn" output="Գ"/>
+            <when state="beng" next="beng" output="ঘ"/>
+            <when state="cyrl" next="cyrl" output="Г"/>
+            <when state="cyrl_1" next="cyrl" output="Ґ"/>
+            <when state="cyrl_hook" next="cyrl" output="Ҕ"/>
+            <when state="cyrl_stroke" next="cyrl" output="Ғ"/>
+            <when state="deva" next="deva" output="घ"/>
+            <when state="grek" next="grek" output="Γ"/>
+            <when state="hrkt" next="hrkt_G"/>
+            <when state="khmr" next="khmr" output="ឃ"/>
+            <when state="laoo" next="laoo" output="ຄ"/>
+            <when state="latn_bar" output="Ǥ"/>
+            <when state="latn_extensions" output="Ɣ"/>
+            <when state="latn_rotated_upper" output="⅁"/>
+            <when state="latn_slash" output="Ꞡ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ɢ"/>
+            <when state="mong" next="mong" output="ᠺ"/>
+            <when state="mymr" next="mymr" output="ဃ"/>
+            <when state="sinh" next="sinh" output="ඝ"/>
+            <when state="thai" next="thai" output="ฆ"/>
+        </action>
+        <action id="H">
+            <when state="none" output="H"/>
+            <when state="arab" next="arab" output="خ"/>
+            <when state="armn" output="Հ"/>
+            <when state="cyrl" next="cyrl" output="Х"/>
+            <when state="cyrl_descender" next="cyrl" output="Ҳ"/>
+            <when state="grek" next="grek" output="Η"/>
+            <when state="hrkt" next="hrkt_H"/>
+            <when state="latn_bar" output="Ħ"/>
+            <when state="latn_extensions" output="Ƕ"/>
+            <when state="latn_rotated_lower" output="Ɥ"/>
+            <when state="latn_rotated_upper" output="H"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ʜ"/>
+            <when state="tfng" next="tfng" output="ⵃ"/>
+        </action>
+        <action id="I">
+            <when state="none" output="I"/>
+            <when state="arab" next="arab" output="ی"/>
+            <when state="armn" next="armn" output="Ի"/>
+            <when state="cyrl" next="cyrl" output="И"/>
+            <when state="cyrl_1" next="cyrl" output="І"/>
+            <when state="cyrl_2" next="cyrl" output="Ј"/>
+            <when state="cyrl_i" next="cyrl" output="Ї"/>
+            <when state="grek" next="grek" output="Ι"/>
+            <when state="hrkt" next="hrkt" output="イ"/>
+            <when state="hrkt_B" next="hrkt" output="ビ"/>
+            <when state="hrkt_D" next="hrkt" output="ヂ"/>
+            <when state="hrkt_G" next="hrkt" output="ギ"/>
+            <when state="hrkt_H" next="hrkt" output="ヒ"/>
+            <when state="hrkt_K" next="hrkt" output="キ"/>
+            <when state="hrkt_M" next="hrkt" output="ミ"/>
+            <when state="hrkt_N" next="hrkt" output="ニ"/>
+            <when state="hrkt_P" next="hrkt" output="ピ"/>
+            <when state="hrkt_R" next="hrkt" output="リ"/>
+            <when state="hrkt_S" next="hrkt" output="シ"/>
+            <when state="hrkt_T" next="hrkt" output="チ"/>
+            <when state="hrkt_Z" next="hrkt" output="ジ"/>
+            <when state="latn_bar" output="Ɨ"/>
+            <when state="latn_extensions" output="Ɪ"/>
+            <when state="latn_rotated_upper" output="I"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ɪ"/>
+            <when state="thaa" next="thaa" output="ީ"/>
+            <when state="hrkt_b" next="hrkt" output="び"/>
+            <when state="hrkt_d" next="hrkt" output="ぢ"/>
+            <when state="hrkt_g" next="hrkt" output="ぎ"/>
+            <when state="hrkt_h" next="hrkt" output="ひ"/>
+            <when state="hrkt_k" next="hrkt" output="き"/>
+            <when state="hrkt_m" next="hrkt" output="み"/>
+            <when state="hrkt_n" next="hrkt" output="に"/>
+            <when state="hrkt_p" next="hrkt" output="ぴ"/>
+            <when state="hrkt_r" next="hrkt" output="り"/>
+            <when state="hrkt_s" next="hrkt" output="し"/>
+            <when state="hrkt_t" next="hrkt" output="ち"/>
+            <when state="hrkt_z" next="hrkt" output="じ"/>
+        </action>
+        <action id="J">
+            <when state="none" output="J"/>
+            <when state="arab" next="arab" output="ژ"/>
+            <when state="armn" output="Ձ"/>
+            <when state="armn_2" output="Ջ"/>
+            <when state="beng" next="beng" output="ঝ"/>
+            <when state="cyrl" next="cyrl" output="Ж"/>
+            <when state="cyrl_descender" next="cyrl" output="Җ"/>
+            <when state="deva" next="deva" output="झ"/>
+            <when state="deva_dot_below" output="झ़"/>
+            <when state="geor" output="ჟ"/>
+            <when state="grek" next="grek" output="Σ"/>
+            <when state="hebr" next="hebr" output="ץ"/>
+            <when state="khmr" next="khmr" output="ឈ"/>
+            <when state="laoo" next="laoo" output="ຍ"/>
+            <when state="latn_bar" output="Ɉ"/>
+            <when state="latn_hook_palatal" output="Ʝ"/>
+            <when state="latn_rotated_lower" output="Ṣ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴊ"/>
+            <when state="mong" next="mong" output="ᡁ"/>
+            <when state="mymr" next="mymr" output="ဈ"/>
+            <when state="sinh" next="sinh" output="ඣ"/>
+            <when state="taml" next="taml" output="ஜ"/>
+            <when state="thai" next="thai" output="ฌ"/>
+        </action>
+        <action id="K">
+            <when state="none" output="K"/>
+            <when state="arab" next="arab" output="خ"/>
+            <when state="armn" output="Կ"/>
+            <when state="armn_2" output="Ք"/>
+            <when state="beng" next="beng" output="খ"/>
+            <when state="cyrl" next="cyrl" output="К"/>
+            <when state="cyrl_1" next="cyrl" output="Ҡ"/>
+            <when state="cyrl_descender" next="cyrl" output="Қ"/>
+            <when state="cyrl_hook" next="cyrl" output="Ӄ"/>
+            <when state="deva" next="deva" output="ख"/>
+            <when state="deva_dot_below" output="ख़"/>
+            <when state="geor" output="ქ"/>
+            <when state="grek" next="grek" output="Κ"/>
+            <when state="hebr" next="hebr" output="ך"/>
+            <when state="hrkt" next="hrkt_K"/>
+            <when state="hebr_dagesh" output="ךּ"/>
+            <when state="khmr" next="khmr" output="ខ"/>
+            <when state="latn_bar" output="Ꝁ"/>
+            <when state="latn_rotated_lower" output="Ʞ"/>
+            <when state="latn_rotated_upper" output="Ʞ"/>
+            <when state="latn_slash" output="Ꝃ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴋ"/>
+            <when state="mong" next="mong" output="ᠻ"/>
+            <when state="mymr" next="mymr" output="ခ"/>
+            <when state="sinh" next="sinh" output="ඛ"/>
+            <when state="thai" next="thai" output="ข"/>
+        </action>
+        <action id="L">
+            <when state="none" output="L"/>
+            <when state="armn" output="Լ"/>
+            <when state="cyrl" next="cyrl" output="Л"/>
+            <when state="cyrl_descender" next="cyrl" output="ԯ"/>
+            <when state="cyrl_hook" next="cyrl" output="Ԡ"/>
+            <when state="cyrl_i" next="cyrl" output="Љ"/>
+            <when state="grek" next="grek" output="Λ"/>
+            <when state="hrkt" next="hrkt" output="ン"/>
+            <when state="latn_bar" output="Ƚ"/>
+            <when state="latn_rotated_lower" output="Ꞁ"/>
+            <when state="latn_rotated_upper" output="⅂"/>
+            <when state="latn_slash" output="Ł"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ʟ"/>
+            <when state="mong" next="mong" output="ᡀ"/>
+        </action>
+        <action id="M">
+            <when state="none" output="M"/>
+            <when state="armn" output="Մ"/>
+            <when state="cyrl" next="cyrl" output="М"/>
+            <when state="grek" next="grek" output="Μ"/>
+            <when state="hebr" next="hebr" output="ם‎"/>
+            <when state="hrkt" next="hrkt_M"/>
+            <when state="latn_hook_palatal" output="Ɱ"/>
+            <when state="latn_rotated_lower" output="Ɯ"/>
+            <when state="latn_rotated_upper" output="ꟽ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴍ"/>
+        </action>
+        <action id="N">
+            <when state="none" output="N"/>
+            <when state="arab" next="arab" output="ں"/>
+            <when state="armn" output="Ն"/>
+            <when state="beng" next="beng" output="ঙ"/>
+            <when state="cyrl" next="cyrl" output="Н"/>
+            <when state="cyrl_descender" next="cyrl" output="Ң"/>
+            <when state="cyrl_hook" next="cyrl" output="Ӈ"/>
+            <when state="cyrl_i" next="cyrl" output="Њ"/>
+            <when state="deva" next="deva" output="ङ"/>
+            <when state="grek" next="grek" output="Ν"/>
+            <when state="hebr" next="hebr" output="ן"/>
+            <when state="hrkt" next="hrkt_N"/>
+            <when state="khmr" next="khmr" output="ង"/>
+            <when state="latn_hook_palatal" output="Ŋ"/>
+            <when state="latn_slash" output="Ꞥ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ɴ"/>
+            <when state="mong" next="mong" output="ᠩ"/>
+            <when state="mymr" next="mymr" output="င"/>
+            <when state="sinh" next="sinh" output="ඞ"/>
+            <when state="taml" next="taml" output="ங"/>
+            <when state="thai" next="thai" output="ง"/>
+        </action>
+        <action id="O">
+            <when state="none" output="O"/>
+            <when state="arab" next="arab" output="ة"/>
+            <when state="armn" output="Օ"/>
+            <when state="cyrl" next="cyrl" output="О"/>
+            <when state="cyrl_1" next="cyrl" output="Ҩ"/>
+            <when state="cyrl_i" next="cyrl" output="Ё"/>
+            <when state="cyrl_stroke" next="cyrl" output="Ө"/>
+            <when state="deva" next="deva" output="ू"/>
+            <when state="grek" next="grek" output="Ο"/>
+            <when state="hrkt" next="hrkt" output="オ"/>
+            <when state="hrkt_B" next="hrkt" output="ボ"/>
+            <when state="hrkt_D" next="hrkt" output="ド"/>
+            <when state="hrkt_G" next="hrkt" output="ゴ"/>
+            <when state="hrkt_H" next="hrkt" output="ホ"/>
+            <when state="hrkt_K" next="hrkt" output="コ"/>
+            <when state="hrkt_M" next="hrkt" output="モ"/>
+            <when state="hrkt_N" next="hrkt" output="ノ"/>
+            <when state="hrkt_P" next="hrkt" output="ポ"/>
+            <when state="hrkt_R" next="hrkt" output="ロ"/>
+            <when state="hrkt_S" next="hrkt" output="ソ"/>
+            <when state="hrkt_T" next="hrkt" output="ト"/>
+            <when state="hrkt_W" next="hrkt" output="ヲ"/>
+            <when state="hrkt_Y" next="hrkt" output="ヨ"/>
+            <when state="hrkt_Z" next="hrkt" output="ゾ"/>
+            <when state="hrkt_L" next="hrkt" output="ォ"/>
+            <when state="latn_bar" output="Ɵ"/>
+            <when state="latn_e" output="Œ"/>
+            <when state="latn_extensions" output="Ɔ"/>
+            <when state="latn_rotated_lower" output="O"/>
+            <when state="latn_rotated_upper" output="O"/>
+            <when state="latn_slash" output="Ø"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴏ"/>
+            <when state="mong" next="mong" output="ᠥ"/>
+            <when state="thaa" next="thaa" output="ޯ"/>
+            <when state="hrkt_b" next="hrkt" output="ぼ"/>
+            <when state="hrkt_d" next="hrkt" output="ど"/>
+            <when state="hrkt_g" next="hrkt" output="ご"/>
+            <when state="hrkt_h" next="hrkt" output="ほ"/>
+            <when state="hrkt_k" next="hrkt" output="こ"/>
+            <when state="hrkt_m" next="hrkt" output="も"/>
+            <when state="hrkt_n" next="hrkt" output="の"/>
+            <when state="hrkt_p" next="hrkt" output="ぽ"/>
+            <when state="hrkt_r" next="hrkt" output="ろ"/>
+            <when state="hrkt_s" next="hrkt" output="そ"/>
+            <when state="hrkt_t" next="hrkt" output="と"/>
+            <when state="hrkt_w" next="hrkt" output="を"/>
+            <when state="hrkt_y" next="hrkt" output="よ"/>
+            <when state="hrkt_z" next="hrkt" output="ぞ"/>
+        </action>
+        <action id="P">
+            <when state="none" output="P"/>
+            <when state="armn" output="Պ"/>
+            <when state="armn_2" output="Փ"/>
+            <when state="beng" next="beng" output="ফ"/>
+            <when state="cyrl" next="cyrl" output="П"/>
+            <when state="cyrl_descender" next="cyrl" output="Ԥ"/>
+            <when state="deva" next="deva" output="फ"/>
+            <when state="deva_dot_below" output="फ़"/>
+            <when state="geor" output="ფ"/>
+            <when state="grek" next="grek" output="Π"/>
+            <when state="hebr" next="hebr" output="ף"/>
+            <when state="hebr_dagesh" output="פּ"/>
+            <when state="hrkt" next="hrkt_P"/>
+            <when state="khmr" next="khmr" output="ផ"/>
+            <when state="latn_bar" output="Ᵽ"/>
+            <when state="latn_rotated_lower" output="d"/>
+            <when state="latn_rotated_upper" output="d"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴘ"/>
+            <when state="mymr" next="mymr" output="ဖ"/>
+            <when state="sinh" next="sinh" output="ඵ"/>
+            <when state="taml" next="taml" output="ப"/>
+            <when state="thai" next="thai" output="พ"/>
+        </action>
+        <action id="Q">
+            <when state="none" output="Q"/>
+            <when state="arab" next="arab" output="څ"/>
+            <when state="armn" output="Ղ"/>
+            <when state="cyrl" next="cyrl" output="Ԛ"/>
+            <when state="deva" next="deva" output="ौ"/>
+            <when state="grek" next="grek" output="Θ"/>
+            <when state="laoo" next="laoo" output="ທ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ꞯ"/>
+        </action>
+        <action id="R">
+            <when state="none" output="R"/>
+            <when state="arab" next="arab" output="ږ"/>
+            <when state="armn" output="Ռ"/>
+            <when state="armn_2" output="Ր"/>
+            <when state="beng" next="beng" output="ঋ"/>
+            <when state="cyrl" next="cyrl" output="Р"/>
+            <when state="deva" next="deva" output="ऋ"/>
+            <when state="geor" output="ღ"/>
+            <when state="grek" next="grek" output="Ρ"/>
+            <when state="khmr" next="khmr" output="ផ"/>
+            <when state="hrkt" next="hrkt_R"/>
+            <when state="latn_bar" output="Ᵽ"/>
+            <when state="latn_rotated_lower" output="d"/>
+            <when state="latn_rotated_upper" output="d"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴘ"/>
+            <when state="mymr" next="mymr" output="ဖ"/>
+            <when state="sinh" next="sinh" output="ඵ"/>
+            <when state="taml" next="taml" output="ப"/>
+            <when state="thai" next="thai" output="พ"/>
+        </action>
+        <action id="S">
+            <when state="none" output="S"/>
+            <when state="arab" next="arab" output="ص"/>
+            <when state="armn" output="Ս"/>
+            <when state="armn_2" output="Շ"/>
+            <when state="cyrl" next="cyrl" output="С"/>
+            <when state="cyrl_1" next="cyrl" output="Ҫ"/>
+            <when state="geor" output="შ"/>
+            <when state="grek" next="grek" output="Σ"/>
+            <when state="hrkt" next="hrkt_S"/>
+            <when state="laoo" next="laoo" output="ຊ"/>
+            <when state="latn_extensions" output="ẞ"/>
+            <when state="latn_rotated_lower" output="S"/>
+            <when state="latn_rotated_upper" output="S"/>
+            <when state="latn_slash" output="Ꞩ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ꜱ"/>
+            <when state="math" output="∮"/>
+            <when state="mong" next="mong" output="ᠱ"/>
+            <when state="tfng" next="tfng" output="ⵚ"/>
+        </action>
+        <action id="T">
+            <when state="none" output="T"/>
+            <when state="arab" next="arab" output="ط"/>
+            <when state="armn" output="Տ"/>
+            <when state="armn_2" output="Թ"/>
+            <when state="beng" next="beng" output="থ"/>
+            <when state="cyrl" next="cyrl" output="Т"/>
+            <when state="deva" next="deva" output="थ"/>
+            <when state="geor" output="თ"/>
+            <when state="grek" next="grek" output="Τ"/>
+            <when state="khmr" next="khmr" output="ថ"/>
+            <when state="hrkt" next="hrkt_T"/>
+            <when state="latn_bar" output="Ŧ"/>
+            <when state="latn_extensions" output="Þ"/>
+            <when state="latn_rotated_lower" output="Ʇ"/>
+            <when state="latn_rotated_upper" output="⊥"/>
+            <when state="latn_slash" output="Ⱦ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴛ"/>
+            <when state="mymr" next="mymr" output="သ"/>
+            <when state="sinh" next="sinh" output="ථ"/>
+            <when state="taml" next="taml" output="த"/>
+            <when state="tfng" next="tfng" output="ⵟ"/>
+            <when state="thai" next="thai" output="ถ"/>
+        </action>
+        <action id="U">
+            <when state="none" output="U"/>
+            <when state="armn" output="Ո"/>
+            <when state="cyrl" next="cyrl" output="У"/>
+            <when state="cyrl_1" next="cyrl" output="Ү"/>
+            <when state="cyrl_i" next="cyrl" output="Ю"/>
+            <when state="grek" next="grek" output="Υ"/>
+            <when state="hrkt" next="hrkt" output="ウ"/>
+            <when state="hrkt_B" next="hrkt" output="ブ"/>
+            <when state="hrkt_D" next="hrkt" output="ヅ"/>
+            <when state="hrkt_G" next="hrkt" output="グ"/>
+            <when state="hrkt_H" next="hrkt" output="フ"/>
+            <when state="hrkt_K" next="hrkt" output="ク"/>
+            <when state="hrkt_M" next="hrkt" output="ム"/>
+            <when state="hrkt_N" next="hrkt" output="ヌ"/>
+            <when state="hrkt_P" next="hrkt" output="プ"/>
+            <when state="hrkt_R" next="hrkt" output="ル"/>
+            <when state="hrkt_S" next="hrkt" output="ス"/>
+            <when state="hrkt_T" next="hrkt" output="ツ"/>
+            <when state="hrkt_Y" next="hrkt" output="ユ"/>
+            <when state="hrkt_Z" next="hrkt" output="ズ"/>
+            <when state="latn_bar" output="Ʉ"/>
+            <when state="latn_extensions" output="Ʊ"/>
+            <when state="latn_rotated_lower" output="N"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴜ"/>
+            <when state="mong" next="mong" output="ᠦ"/>
+            <when state="thaa" next="thaa" output="ޫ"/>
+            <when state="hrkt_b" next="hrkt" output="ぶ"/>
+            <when state="hrkt_d" next="hrkt" output="づ"/>
+            <when state="hrkt_g" next="hrkt" output="ぐ"/>
+            <when state="hrkt_h" next="hrkt" output="ふ"/>
+            <when state="hrkt_k" next="hrkt" output="く"/>
+            <when state="hrkt_m" next="hrkt" output="む"/>
+            <when state="hrkt_n" next="hrkt" output="ぬ"/>
+            <when state="hrkt_p" next="hrkt" output="ぷ"/>
+            <when state="hrkt_r" next="hrkt" output="る"/>
+            <when state="hrkt_s" next="hrkt" output="す"/>
+            <when state="hrkt_t" next="hrkt" output="つ"/>
+            <when state="hrkt_y" next="hrkt" output="ゆ"/>
+            <when state="hrkt_z" next="hrkt" output="ず"/>
+        </action>
+        <action id="V">
+            <when state="none" output="V"/>
+            <when state="armn" output="Վ"/>
+            <when state="cyrl" next="cyrl" output="В"/>
+            <when state="grek" next="grek" output="Ϝ"/>
+            <when state="latn_extensions" output="Ʋ"/>
+            <when state="latn_rotated_lower" output="Ʌ"/>
+            <when state="latn_rotated_upper" output="Ʌ"/>
+            <when state="latn_slash" output="Ꝟ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴠ"/>
+        </action>
+        <action id="W">
+            <when state="none" output="W"/>
+            <when state="arab" next="arab" output="ښ"/>
+            <when state="armn" output="Ւ"/>
+            <when state="beng" next="beng" output="ঠ"/>
+            <when state="cyrl" next="cyrl" output="Ԝ"/>
+            <when state="deva" next="deva" output="ठ"/>
+            <when state="geor" output="ჭ"/>
+            <when state="grek" next="grek" output="Ω"/>
+            <when state="khmr" next="khmr" output="ឋ"/>
+            <when state="latn_extensions" output="Ɯ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴡ"/>
+            <when state="mymr" next="mymr" output="ဋ"/>
+            <when state="sinh" next="sinh" output="ඨ"/>
+            <when state="tfng" next="tfng" output="ⵯ"/>
+            <when state="thai" next="thai" output="ฐ"/>
+            <when state="hrkt" next="hrkt_W"/>
+        </action>
+        <action id="X">
+            <when state="none" output="X"/>
+            <when state="arab" next="arab" output="چ"/>
+            <when state="armn" output="Խ"/>
+            <when state="beng" next="beng" output="ষ"/>
+            <when state="cyrl" next="cyrl" output="Ш"/>
+            <when state="cyrl_descender" next="cyrl" output="щ"/>
+            <when state="deva" next="deva" output="ष"/>
+            <when state="grek" next="grek" output="Χ"/>
+            <when state="khmr" next="khmr" output="ឞ"/>
+            <when state="laoo" next="laoo" output="ພ"/>
+            <when state="latn_extensions" output="Ʃ"/>
+            <when state="latn_rotated_lower" output="X"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="x"/>
+            <when state="mymr" next="mymr" output="ဆ"/>
+            <when state="sinh" next="sinh" output="ෂ"/>
+            <when state="taml" next="taml" output="ஷ"/>
+            <when state="thai" next="thai" output="ษ"/>
+        </action>
+        <action id="Y">
+            <when state="none" output="Y"/>
+            <when state="armn" output="Յ"/>
+            <when state="cyrl" next="cyrl" output="Ы"/>
+            <when state="cyrl_1" next="cyrl" output="Ѵ"/>
+            <when state="grek" next="grek" output="Ψ"/>
+            <when state="latn_bar" output="Ɏ"/>
+            <when state="latn_extensions" output="Ƴ"/>
+            <when state="latn_rotated_lower" output="ʎ"/>
+            <when state="latn_rotated_upper" output="⅄"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ʏ"/>
+            <when state="tfng" next="tfng" output="ⵖ"/>
+            <when state="hrkt" next="hrkt_Y"/>
+        </action>
+        <action id="Z">
+            <when state="none" output="Z"/>
+            <when state="arab" next="arab" output="ظ"/>
+            <when state="armn" output="Զ"/>
+            <when state="armn_2" output="Ժ"/>
+            <when state="beng" next="beng" output="ঢ"/>
+            <when state="cyrl" next="cyrl" output="З"/>
+            <when state="cyrl_1" next="cyrl" output="Ӡ"/>
+            <when state="cyrl_2" next="cyrl" output="Ѕ"/>
+            <when state="deva" next="deva" output="ढ"/>
+            <when state="geor" output="ძ"/>
+            <when state="grek" next="grek" output="Ζ"/>
+            <when state="khmr" next="khmr" output="ឍ"/>
+            <when state="latn_bar" output="Ƶ"/>
+            <when state="latn_extensions" output="Ʒ"/>
+            <when state="latn_hook_palatal" output="Ᶎ"/>
+            <when state="latn_rotated_lower" output="Z"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴢ"/>
+            <when state="mong" next="mong" output="ᠿ"/>
+            <when state="mymr" next="mymr" output="ဎ"/>
+            <when state="sinh" next="sinh" output="ඪ"/>
+            <when state="taml" next="taml" output="ட"/>
+            <when state="tfng" next="tfng" output="ⵥ"/>
+            <when state="thai" next="thai" output="ฒ"/>
+            <when state="hrkt" next="hrkt_Z"/>
+        </action>
+        <action id="\">
+            <when state="none" output="\"/>
+            <when state="deva" next="deva" output="ॅ"/>
+            <when state="mong" next="mong" output="᠅"/>
+        </action>
+        <action id="^">
+            <when state="none" output="^"/>
+            <when state="arab" next="arab" output="ظ"/>
+            <when state="deva" next="deva" output="ै"/>
+            <when state="latn_extensions" output="Ƅ"/>
+        </action>
+        <action id="_">
+            <when state="none" output="-"/>
+            <when state="arab" next="arab" output="ذ"/>
+            <when state="armn" next="armn" output="ը"/>
+            <when state="deva" next="deva" output="ञ"/>
+            <when state="hrkt" next="hrkt" output="ー"/>
+            <when state="mong" next="mong" output="᠆"/>
+        </action>
+        <action id="`">
+            <when state="none" output="`"/>
+            <when state="arab" next="arab" output="ء"/>
+            <when state="arab_hamza_above" output="ځ"/>
+            <when state="armn" output="ց"/>
+            <when state="deva" next="deva" output="ृ"/>
+        </action>
+        <action id="a">
+            <when state="none" output="a"/>
+            <when state="arab" next="arab" output="ا"/>
+            <when state="armn" output="ա"/>
+            <when state="arrows_basic_dvorak" output="←"/>
+            <when state="beng" next="beng" output="অ"/>
+            <when state="cans" next="cans" output="ᐊ"/>
+            <when state="cans_g" next="cans" output="ᒐ"/>
+            <when state="cans_h" next="cans" output="ᕹ"/>
+            <when state="cans_j" next="cans" output="ᔭ"/>
+            <when state="cans_k" next="cans" output="ᑲ"/>
+            <when state="cans_l" next="cans" output="ᓚ"/>
+            <when state="cans_m" next="cans" output="ᒪ"/>
+            <when state="cans_n" next="cans" output="ᓇ"/>
+            <when state="cans_p" next="cans" output="ᐸ"/>
+            <when state="cans_q" next="cans" output="ᖃ"/>
+            <when state="cans_r" next="cans" output="ᕋ"/>
+            <when state="cans_s" next="cans" output="ᓴ"/>
+            <when state="cans_t" next="cans" output="ᑕ"/>
+            <when state="cans_v" next="cans" output="ᕙ"/>
+            <when state="cyrl" next="cyrl" output="а"/>
+            <when state="cyrl_1" next="cyrl" output="ѫ"/>
+            <when state="cyrl_2" next="cyrl" output="ә"/>
+            <when state="cyrl_i" next="cyrl" output="я"/>
+            <when state="deva" next="deva" output="अ"/>
+            <when state="geez" output="ኣ"/>
+            <when state="geez_b" output="ባ"/>
+            <when state="geez_c" output="ጫ"/>
+            <when state="geez_d" output="ዳ"/>
+            <when state="geez_f" output="ፋ"/>
+            <when state="geez_g" output="ጋ"/>
+            <when state="geez_h" output="ሃ"/>
+            <when state="geez_h1" output="ሓ"/>
+            <when state="geez_h2" output="ኃ"/>
+            <when state="geez_j" output="ጃ"/>
+            <when state="geez_k" output="ካ"/>
+            <when state="geez_k1" output="ቃ"/>
+            <when state="geez_l" output="ላ"/>
+            <when state="geez_m" output="ማ"/>
+            <when state="geez_n" output="ና"/>
+            <when state="geez_p" output="ጳ"/>
+            <when state="geez_r" output="ራ"/>
+            <when state="geez_s" output="ሳ"/>
+            <when state="geez_s1" output="ሣ"/>
+            <when state="geez_t" output="ታ"/>
+            <when state="geez_t1" output="ጣ"/>
+            <when state="geez_w" output="ዋ"/>
+            <when state="geez_y" output="ያ"/>
+            <when state="geez_z" output="ዛ"/>
+            <when state="geor" output="ა"/>
+            <when state="grek" next="grek" output="α"/>
+            <when state="hebr" next="hebr" output="א"/>
+            <when state="hrkt" next="hrkt" output="あ"/>
+            <when state="hrkt_b" next="hrkt" output="ば"/>
+            <when state="hrkt_d" next="hrkt" output="だ"/>
+            <when state="hrkt_g" next="hrkt" output="が"/>
+            <when state="hrkt_h" next="hrkt" output="は"/>
+            <when state="hrkt_k" next="hrkt" output="か"/>
+            <when state="hrkt_m" next="hrkt" output="ま"/>
+            <when state="hrkt_n" next="hrkt" output="な"/>
+            <when state="hrkt_p" next="hrkt" output="ぱ"/>
+            <when state="hrkt_r" next="hrkt" output="ら"/>
+            <when state="hrkt_s" next="hrkt" output="さ"/>
+            <when state="hrkt_t" next="hrkt" output="た"/>
+            <when state="hrkt_w" next="hrkt" output="わ"/>
+            <when state="hrkt_y" next="hrkt" output="や"/>
+            <when state="hrkt_z" next="hrkt" output="ざ"/>
+            <when state="khmr" next="khmr" output="អ"/>
+            <when state="latn_e" output="æ"/>
+            <when state="latn_extensions" output="ɑ"/>
+            <when state="latn_hook_retroflex" output="ᶏ"/>
+            <when state="latn_rotated_lower" output="ɐ"/>
+            <when state="latn_slash" output="ⱥ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴀ"/>
+            <when state="math" output="∝"/>
+            <when state="mong" next="mong" output="ᠠ"/>
+            <when state="mymr" next="mymr" output="အ"/>
+            <when state="sinh" next="sinh" output="අ"/>
+            <when state="taml" next="taml" output="அ"/>
+            <when state="tfng" next="tfng" output="ⴰ"/>
+            <when state="thaa" next="thaa" output="ަ"/>
+            <when state="thai" next="thai" output="อ"/>
+            <when state="hrkt_B" next="hrkt" output="バ"/>
+            <when state="hrkt_D" next="hrkt" output="ダ"/>
+            <when state="hrkt_G" next="hrkt" output="ガ"/>
+            <when state="hrkt_H" next="hrkt" output="ハ"/>
+            <when state="hrkt_K" next="hrkt" output="カ"/>
+            <when state="hrkt_M" next="hrkt" output="マ"/>
+            <when state="hrkt_N" next="hrkt" output="ナ"/>
+            <when state="hrkt_P" next="hrkt" output="パ"/>
+            <when state="hrkt_R" next="hrkt" output="ラ"/>
+            <when state="hrkt_S" next="hrkt" output="サ"/>
+            <when state="hrkt_T" next="hrkt" output="タ"/>
+            <when state="hrkt_W" next="hrkt" output="ワ"/>
+            <when state="hrkt_Y" next="hrkt" output="ヤ"/>
+            <when state="hrkt_Z" next="hrkt" output="ザ"/>
+        </action>
+        <action id="alt+X">
+            <when state="none" output="͓"/>
+        </action>
+        <action id="action 13">
+            <when state="none" output="tfng"/>
+        </action>
+        <action id="alt+!">
+          <when state="none" output="̦"/>
+        </action>
+        <action id="alt+,">
+            <when state="none" output="̛"/>
+            <when state="cyrl" next="cyrl_descender"/>
+        </action>
+        <action id="alt+.">
+            <when state="none" output="̇"/>
+            <when state="deva" next="deva_dot_below"/>
+        </action>
+        <action id="alt+1">
+            <when state="none" next="arrows_basic_dvorak"/>
+            <when state="arab" next="arab_1_above"/>
+        </action>
+        <action id="alt+6">
+          <when state="none" output="̂"/>
+          <when state="arab" next="arab_1_below"/>
+        </action>
+        <action id="alt+7">
+            <when state="none" output="̉"/>
+            <when state="arab" next="arab_hacek"/>
+        </action>
+        <action id="alt+;">
+            <when state="none" output="̈"/>
+        </action>
+        <action id="alt+C">
+            <when state="none" next="cyrl"/>
+        </action>
+        <action id="alt+G">
+            <when state="none" next="grek"/>
+        </action>
+        <action id="alt+J">
+            <when state="none" next="latn_hook_retroflex"/>
+        </action>
+        <action id="alt+R">
+            <when state="none" next="latn_rotated_upper"/>
+        </action>
+        <action id="alt+T">
+            <when state="none" next="latn_slash"/>
+        </action>
+        <action id="alt+\">
+            <when state="none" output=""/>
+        </action>
+        <action id="alt+_">
+            <when state="none" output="̄"/>
+            <when state="deva" next="deva_line_below"/>
+        </action>
+        <action id="alt+`">
+            <when state="none" output="̃"/>
+            <when state="arab" next="arab_hamza_above"/>
+        </action>
+        <action id="alt+A">
+            <when state="none" next="latn_small_caps"/>
+        </action>
+        <action id="alt+e">
+            <when state="none" next="latn_e"/>
+        </action>
+        <action id="alt+h">
+            <when state="none" output=" "/>
+            <when state="arab" next="arab_ring_below"/>
+        </action>
+        <action id="alt+u">
+            <when state="none" output="̆"/>
+            <when state="cyrl" next="cyrl_i"/>
+        </action>
+        <action id="alt+i">
+            <when state="none" output=" "/>
+            <when state="cyrl" next="cyrl_i"/>
+        </action>
+        <action id="alt+j">
+            <when state="none" next="latn_hook_palatal"/>
+        </action>
+        <action id="alt+l">
+            <when state="none" next="latn_tones"/>
+        </action>
+        <action id="alt+r">
+            <when state="none" next="latn_rotated_lower"/>
+        </action>
+        <action id="alt+s">
+            <when state="none" output=" "/>
+            <when state="cyrl" next="cyrl_stroke"/>
+        </action>
+        <action id="alt+t">
+            <when state="none" next="latn_bar"/>
+        </action>
+        <action id="alt+v">
+            <when state="none" output="̌"/>
+        </action>
+        <action id="alt+x">
+            <when state="none" next="latn_extensions"/>
+        </action>
+        <action id="b">
+            <when state="none" output="b"/>
+            <when state="arab" next="arab" output="ب"/>
+            <when state="arab_1_below" next="arab" output="ٻ"/>
+            <when state="armn" output="բ"/>
+            <when state="beng" next="beng" output="ব"/>
+            <when state="cyrl" next="cyrl" output="б"/>
+            <when state="deva" next="deva" output="ब"/>
+            <when state="deva_line_below" output="ॿ"/>
+            <when state="geez" next="geez_b"/>
+            <when state="geor" output="ბ"/>
+            <when state="grek" next="grek" output="β"/>
+            <when state="hebr" next="hebr" output="ב"/>
+            <when state="hebr_dagesh" output="בּ"/>
+            <when state="hrkt" next="hrkt_b"/>
+            <when state="khmr" next="khmr" output="ប"/>
+            <when state="laoo" next="laoo" output="ບ"/>
+            <when state="latn_bar" output="ƀ"/>
+            <when state="latn_e" output=""/>
+            <when state="latn_extensions" output=""/>
+            <when state="latn_hook_palatal" output="ᶀ"/>
+            <when state="latn_hook_retroflex" output=""/>
+            <when state="latn_rotated_lower" output="q"/>
+            <when state="latn_rotated_upper" output=""/>
+            <when state="latn_slash" output=""/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ʙ"/>
+            <when state="mong" next="mong" output="ᠪ"/>
+            <when state="mymr" next="mymr" output="ဗ"/>
+            <when state="sinh" next="sinh" output="බ"/>
+            <when state="taml" next="taml" output="ப"/>
+            <when state="tfng" next="tfng" output="ⴱ"/>
+            <when state="thaa" next="thaa" output="ބ"/>
+            <when state="thai" next="thai" output="บ"/>
+            <when state="tibt" next="tibt" output="བ"/>
+        </action>
+        <action id="beng">
+            <when state="none" next="beng"/>
+        </action>
+        <action id="c">
+            <when state="none" output="c"/>
+            <when state="arab" next="arab" output="ث"/>
+            <when state="armn" output="ծ"/>
+            <when state="armn_2" output="ճ"/>
+            <when state="beng" next="beng" output="চ"/>
+            <when state="cyrl" next="cyrl" output="ч"/>
+            <when state="cyrl_1" next="cyrl" output="ц"/>
+            <when state="cyrl_2" next="cyrl" output="ћ"/>
+            <when state="cyrl_descender" next="cyrl" output="ҷ"/>
+            <when state="cyrl_stroke" next="cyrl" output="ҵ"/>
+            <when state="deva" next="deva" output="च"/>
+            <when state="geez" next="geez_c"/>
+            <when state="geor" output="ც"/>
+            <when state="grek" next="grek" output="ξ"/>
+            <when state="hebr" next="hebr" output="ס"/>
+            <when state="khmr" next="khmr" output="ច"/>
+            <when state="laoo" next="laoo" output="ຈ"/>
+            <when state="latn_bar" output="ꞓ"/>
+            <when state="latn_e" output=""/>
+            <when state="latn_extensions" output="ʕ"/>
+            <when state="latn_hook_palatal" output=""/>
+            <when state="latn_hook_retroflex" output=""/>
+            <when state="latn_rotated_lower" output="ɔ"/>
+            <when state="latn_rotated_upper" output="ᴐ"/>
+            <when state="latn_slash" output="ȼ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴄ"/>
+            <when state="math" output="⊂"/>
+            <when state="mong" next="mong" output="ᠴ"/>
+            <when state="mymr" next="mymr" output="စ"/>
+            <when state="sinh" next="sinh" output="ච"/>
+            <when state="taml" next="taml" output="ச"/>
+            <when state="tfng" next="tfng" output="ⵛ"/>
+            <when state="thaa" next="thaa" output="ޗ"/>
+            <when state="thai" next="thai" output="จ"/>
+            <when state="tibt" next="tibt" output="ཚ"/>
+        </action>
+        <action id="ctrl+i">
+            <when state="none" next="cans"/>
+            <when state="cyrl" next="cyrl_i"/>
+        </action>
+        <action id="ctrl+j">
+            <when state="none" next="hrkt"/>
+        </action>
+        <action id="d">
+            <when state="none" output="d"/>
+            <when state="arab" next="arab" output="د"/>
+            <when state="arab_1_above" next="arab" output="ذ"/>
+            <when state="arab_4_dots" output="ڈ"/>
+            <when state="arab_ring_below" output="ډ"/>
+            <when state="armn" output="դ"/>
+            <when state="beng" next="beng" output="দ"/>
+            <when state="cyrl" next="cyrl" output="д"/>
+            <when state="cyrl_1" next="cyrl" output="џ"/>
+            <when state="cyrl_stroke" next="cyrl" output="ђ"/>
+            <when state="deva" next="deva" output="द"/>
+            <when state="geez" next="geez_d"/>
+            <when state="geor" output="დ"/>
+            <when state="grek" next="grek" output="δ"/>
+            <when state="hebr" next="hebr" output="ד"/>
+            <when state="hebr_dagesh" output="דּ"/>
+            <when state="hrkt" next="hrkt_d"/>
+            <when state="khmr" next="khmr" output="ទ"/>
+            <when state="laoo" next="laoo" output="ດ"/>
+            <when state="latn_bar" output="đ"/>
+            <when state="latn_hook_palatal" output="ᶁ"/>
+            <when state="latn_hook_retroflex" output="ɖ"/>
+            <when state="latn_rotated_lower" output="p"/>
+            <when state="latn_slash" output="ð"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴅ"/>
+            <when state="mong" next="mong" output="ᠳ"/>
+            <when state="mymr" next="mymr" output="ဒ"/>
+            <when state="sinh" next="sinh" output="ද"/>
+            <when state="taml" next="taml" output="த"/>
+            <when state="tfng" next="tfng" output="ⴷ"/>
+            <when state="thaa" next="thaa" output="ދ"/>
+            <when state="thai" next="thai" output="ท"/>
+            <when state="tibt" next="tibt" output="ཏ"/>
+        </action>
+        <action id="deva">
+            <when state="none" next="deva"/>
+        </action>
+        <action id="e">
+            <when state="none" output="e"/>
+            <when state="arab" next="arab" output="خ"/>
+            <when state="armn" output="ե"/>
+            <when state="armn_2" output="է"/>
+            <when state="arrows_basic_dvorak" output="→"/>
+            <when state="beng" next="beng" output="এ"/>
+            <when state="cans" next="cans" output="ᐁ"/>
+            <when state="cans_g" next="cans" output="ᒉ"/>
+            <when state="cans_h" next="cans" output="ᕴ"/>
+            <when state="cans_j" next="cans" output="ᔦ"/>
+            <when state="cans_k" next="cans" output="ᑫ"/>
+            <when state="cans_l" next="cans" output="ᓓ"/>
+            <when state="cans_m" next="cans" output="ᒣ"/>
+            <when state="cans_n" next="cans" output="ᓀ"/>
+            <when state="cans_p" next="cans" output="ᐯ"/>
+            <when state="cans_q" next="cans" output="ᖀ"/>
+            <when state="cans_r" next="cans" output="ᕃ"/>
+            <when state="cans_s" next="cans" output="ᓭ"/>
+            <when state="cans_t" next="cans" output="ᑌ"/>
+            <when state="cans_v" next="cans" output="ᕓ"/>
+            <when state="cyrl" next="cyrl" output="е"/>
+            <when state="cyrl_1" next="cyrl" output="ѣ"/>
+            <when state="cyrl_2" next="cyrl" output="э"/>
+            <when state="cyrl_i" next="cyrl" output="є"/>
+            <when state="deva" next="deva" output="ए"/>
+            <when state="geez" output="ኤ"/>
+            <when state="geez_b" output="ቤ"/>
+            <when state="geez_c" output="ቼ"/>
+            <when state="geez_d" output="ዴ"/>
+            <when state="geez_f" output="ፌ"/>
+            <when state="geez_g" output="ጌ"/>
+            <when state="geez_h" output="ሄ"/>
+            <when state="geez_h1" output="ሔ"/>
+            <when state="geez_h2" output="ኄ"/>
+            <when state="geez_j" output="ጄ"/>
+            <when state="geez_k" output="ኬ"/>
+            <when state="geez_k1" output="ቄ"/>
+            <when state="geez_l" output="ሌ"/>
+            <when state="geez_m" output="ሜ"/>
+            <when state="geez_n" output="ኔ"/>
+            <when state="geez_p" output="ጴ"/>
+            <when state="geez_r" output="ሬ"/>
+            <when state="geez_s" output="ሴ"/>
+            <when state="geez_s1" output="ሤ"/>
+            <when state="geez_t" output="ቴ"/>
+            <when state="geez_t1" output="ጤ"/>
+            <when state="geez_w" output="ዌ"/>
+            <when state="geez_y" output="ዬ"/>
+            <when state="geez_z" output="ዜ"/>
+            <when state="geor" output="ე"/>
+            <when state="grek" next="grek" output="ε"/>
+            <when state="hebr" next="hebr" output="ה"/>
+            <when state="hrkt" next="hrkt" output="え"/>
+            <when state="hrkt_b" next="hrkt" output="べ"/>
+            <when state="hrkt_d" next="hrkt" output="で"/>
+            <when state="hrkt_g" next="hrkt" output="げ"/>
+            <when state="hrkt_h" next="hrkt" output="へ"/>
+            <when state="hrkt_k" next="hrkt" output="け"/>
+            <when state="hrkt_m" next="hrkt" output="め"/>
+            <when state="hrkt_n" next="hrkt" output="ね"/>
+            <when state="hrkt_p" next="hrkt" output="ぺ"/>
+            <when state="hrkt_r" next="hrkt" output="れ"/>
+            <when state="hrkt_s" next="hrkt" output="せ"/>
+            <when state="hrkt_t" next="hrkt" output="て"/>
+            <when state="hrkt_z" next="hrkt" output="ぜ"/>
+            <when state="khmr" next="khmr" output="ឯ"/>
+            <when state="latn_extensions" output="ɛ"/>
+            <when state="latn_hook_retroflex" output="ᶒ"/>
+            <when state="latn_rotated_lower" output="ə"/>
+            <when state="latn_rotated_upper" output="ⱻ"/>
+            <when state="latn_slash" output="ɇ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴇ"/>
+            <when state="math" output="∈"/>
+            <when state="mong" next="mong" output="ᠡ"/>
+            <when state="mymr" next="mymr" output="ဧ"/>
+            <when state="sinh" next="sinh" output="ඒ"/>
+            <when state="taml" next="taml" output="ஏ"/>
+            <when state="tfng" next="tfng" output="ⴻ"/>
+            <when state="thaa" next="thaa" output="ެ"/>
+            <when state="hrkt_B" next="hrkt" output="ベ"/>
+            <when state="hrkt_D" next="hrkt" output="デ"/>
+            <when state="hrkt_G" next="hrkt" output="ゲ"/>
+            <when state="hrkt_H" next="hrkt" output="ヘ"/>
+            <when state="hrkt_K" next="hrkt" output="ケ"/>
+            <when state="hrkt_M" next="hrkt" output="メ"/>
+            <when state="hrkt_N" next="hrkt" output="ネ"/>
+            <when state="hrkt_P" next="hrkt" output="ペ"/>
+            <when state="hrkt_R" next="hrkt" output="レ"/>
+            <when state="hrkt_S" next="hrkt" output="セ"/>
+            <when state="hrkt_T" next="hrkt" output="テ"/>
+            <when state="hrkt_Z" next="hrkt" output="ゼ"/>
+        </action>
+        <action id="f">
+            <when state="none" output="f"/>
+            <when state="arab" next="arab" output="ف"/>
+            <when state="armn" output="ֆ"/>
+            <when state="beng" next="beng" output="ফ়"/>
+            <when state="cyrl" next="cyrl" output="ф"/>
+            <when state="deva" next="deva" output="फ़"/>
+            <when state="geez" next="geez_f"/>
+            <when state="geor" output="ფ"/>
+            <when state="grek" next="grek" output="φ"/>
+            <when state="hebr" next="hebr" output="ת"/>
+            <when state="hebr_dagesh" output="תּ"/>
+            <when state="khmr" next="khmr" output="ហ្វ"/>
+            <when state="latn_extensions" output="ƒ"/>
+            <when state="latn_hook_palatal" output="ƒ"/>
+            <when state="latn_rotated_lower" output="ɟ"/>
+            <when state="latn_rotated_upper" output="ⅎ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ꜰ"/>
+            <when state="mong" next="mong" output="ᠹ"/>
+            <when state="mymr" next="mymr" output="ဖ"/>
+            <when state="sinh" next="sinh" output="ෆ"/>
+            <when state="tfng" next="tfng" output="ⴼ"/>
+            <when state="thaa" next="thaa" output="ފ"/>
+            <when state="thai" next="thai" output="ฟ"/>
+        </action>
+        <action id="g">
+            <when state="none" output="g"/>
+            <when state="arab" next="arab" output="غ"/>
+            <when state="arab_ring_below" output="ګ"/>
+            <when state="armn" output="գ"/>
+            <when state="beng" next="beng" output="গ"/>
+            <when state="cans" next="cans_g"/>
+            <when state="cyrl" next="cyrl" output="г"/>
+            <when state="cyrl_1" next="cyrl" output="ґ"/>
+            <when state="cyrl_hook" next="cyrl" output="ҕ"/>
+            <when state="cyrl_stroke" next="cyrl" output="ғ"/>
+            <when state="deva" next="deva" output="ग"/>
+            <when state="deva_dot_below" output="ग़"/>
+            <when state="deva_line_below" output="ॻ"/>
+            <when state="geez" next="geez_g"/>
+            <when state="geor" output="გ"/>
+            <when state="grek" next="grek" output="γ"/>
+            <when state="hebr" next="hebr" output="ג"/>
+            <when state="hebr_dagesh" output="גּ"/>
+            <when state="hrkt" next="hrkt_g"/>
+            <when state="khmr" next="khmr" output="គ"/>
+            <when state="laoo" next="laoo" output="ຂ"/>
+            <when state="latn_bar" output="ǥ"/>
+            <when state="latn_extensions" output="ɣ"/>
+            <when state="latn_hook_palatal" output="ᶃ"/>
+            <when state="latn_rotated_lower" output="ᵷ"/>
+            <when state="latn_slash" output="ꞡ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ɢ"/>
+            <when state="mong" next="mong" output="ᠭ"/>
+            <when state="mymr" next="mymr" output="ဂ"/>
+            <when state="sinh" next="sinh" output="ග"/>
+            <when state="taml" next="taml" output="க"/>
+            <when state="tfng" next="tfng" output="ⴳ"/>
+            <when state="thaa" next="thaa" output="ގ"/>
+            <when state="thai" next="thai" output="ค"/>
+            <when state="tibt" next="tibt" output="ག"/>
+        </action>
+        <action id="geez">
+            <when state="none" next="geez"/>
+        </action>
+        <action id="h">
+            <when state="none" output="h"/>
+            <when state="arab" next="arab" output="ح"/>
+            <when state="armn" output="հ"/>
+            <when state="beng" next="beng" output="হ"/>
+            <when state="cans" next="cans_h"/>
+            <when state="cyrl" next="cyrl" output="х"/>
+            <when state="cyrl_descender" next="cyrl" output="ҳ"/>
+            <when state="deva" next="deva" output="ह"/>
+            <when state="geez" next="geez_h"/>
+            <when state="geor" output="ჰ"/>
+            <when state="grek" next="grek" output="η"/>
+            <when state="hebr" next="hebr" output="ח"/>
+            <when state="hrkt" next="hrkt_h"/>
+            <when state="khmr" next="khmr" output="ហ"/>
+            <when state="laoo" next="laoo" output="ຫ໌"/>
+            <when state="latn_bar" output="ħ"/>
+            <when state="latn_extensions" output="ƕ"/>
+            <when state="latn_rotated_lower" output="ɥ"/>
+            <when state="latn_rotated_upper" output="ʜ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ʜ"/>
+            <when state="mong" next="mong" output="ᠾ"/>
+            <when state="mymr" next="mymr" output="ဟ"/>
+            <when state="sinh" next="sinh" output="හ"/>
+            <when state="taml" next="taml" output="ஹ"/>
+            <when state="tfng" next="tfng" output="ⵀ"/>
+            <when state="thaa" next="thaa" output="ހ"/>
+            <when state="thai" next="thai" output="ห"/>
+            <when state="tibt" next="tibt" output="ཿ"/>
+        </action>
+        <action id="i">
+            <when state="none" output="i"/>
+            <when state="arab" next="arab" output="ي"/>
+            <when state="arab_hacek" output="ێ"/>
+            <when state="armn" output="ի"/>
+            <when state="beng" next="beng" output="ই"/>
+            <when state="cans" next="cans" output="ᐃ"/>
+            <when state="cans_g" next="cans" output="ᒋ"/>
+            <when state="cans_h" next="cans" output="ᕵ"/>
+            <when state="cans_j" next="cans" output="ᔨ"/>
+            <when state="cans_k" next="cans" output="ᑭ"/>
+            <when state="cans_l" next="cans" output="ᓕ"/>
+            <when state="cans_m" next="cans" output="ᒥ"/>
+            <when state="cans_n" next="cans" output="ᓂ"/>
+            <when state="cans_p" next="cans" output="ᐱ"/>
+            <when state="cans_q" next="cans" output="ᕿ"/>
+            <when state="cans_r" next="cans" output="ᕆ"/>
+            <when state="cans_s" next="cans" output="ᓯ"/>
+            <when state="cans_t" next="cans" output="ᑎ"/>
+            <when state="cans_v" next="cans" output="ᕕ"/>
+            <when state="cyrl" next="cyrl" output="и"/>
+            <when state="cyrl_1" next="cyrl" output="і"/>
+            <when state="cyrl_2" next="cyrl" output="ј"/>
+            <when state="cyrl_i" next="cyrl" output="ї"/>
+            <when state="deva" next="deva" output="इ"/>
+            <when state="geez" output="ኢ"/>
+            <when state="geez_b" output="ቢ"/>
+            <when state="geez_c" output="ቺ"/>
+            <when state="geez_d" output="ዲ"/>
+            <when state="geez_f" output="ፊ"/>
+            <when state="geez_g" output="ጊ"/>
+            <when state="geez_h" output="ሂ"/>
+            <when state="geez_h1" output="ሒ"/>
+            <when state="geez_h2" output="ኂ"/>
+            <when state="geez_j" output="ጂ"/>
+            <when state="geez_k" output="ኪ"/>
+            <when state="geez_k1" output="ቂ"/>
+            <when state="geez_l" output="ሊ"/>
+            <when state="geez_m" output="ሚ"/>
+            <when state="geez_n" output="ኒ"/>
+            <when state="geez_p" output="ጲ"/>
+            <when state="geez_r" output="ሪ"/>
+            <when state="geez_s" output="ሲ"/>
+            <when state="geez_s1" output="ሢ"/>
+            <when state="geez_t" output="ቲ"/>
+            <when state="geez_t1" output="ጢ"/>
+            <when state="geez_w" output="ዊ"/>
+            <when state="geez_y" output="ዪ"/>
+            <when state="geez_z" output="ዚ"/>
+            <when state="geor" output="ი"/>
+            <when state="grek" next="grek" output="ι"/>
+            <when state="hebr" next="hebr" output="י"/>
+            <when state="hrkt" next="hrkt" output="い"/>
+            <when state="hrkt_b" next="hrkt" output="び"/>
+            <when state="hrkt_d" next="hrkt" output="ぢ"/>
+            <when state="hrkt_g" next="hrkt" output="ぎ"/>
+            <when state="hrkt_h" next="hrkt" output="ひ"/>
+            <when state="hrkt_k" next="hrkt" output="き"/>
+            <when state="hrkt_m" next="hrkt" output="み"/>
+            <when state="hrkt_n" next="hrkt" output="に"/>
+            <when state="hrkt_p" next="hrkt" output="ぴ"/>
+            <when state="hrkt_r" next="hrkt" output="り"/>
+            <when state="hrkt_s" next="hrkt" output="し"/>
+            <when state="hrkt_t" next="hrkt" output="ち"/>
+            <when state="hrkt_z" next="hrkt" output="じ"/>
+            <when state="khmr" next="khmr" output="ឥ"/>
+            <when state="latn_bar" output="ɨ"/>
+            <when state="latn_extensions" output="ɪ"/>
+            <when state="latn_hook_retroflex" output="ᶖ"/>
+            <when state="latn_rotated_lower" output="ᴉ"/>
+            <when state="latn_rotated_upper" output="ɪ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ɪ"/>
+            <when state="mong" next="mong" output="ᠢ"/>
+            <when state="mymr" next="mymr" output="ဣ"/>
+            <when state="sinh" next="sinh" output="ඉ"/>
+            <when state="taml" next="taml" output="இ"/>
+            <when state="tfng" next="tfng" output="ⵉ"/>
+            <when state="thaa" next="thaa" output="ި"/>
+            <when state="thai" next="thai" output="อิ"/>
+            <when state="hrkt_B" next="hrkt" output="ビ"/>
+            <when state="hrkt_D" next="hrkt" output="ヂ"/>
+            <when state="hrkt_G" next="hrkt" output="ギ"/>
+            <when state="hrkt_H" next="hrkt" output="ヒ"/>
+            <when state="hrkt_K" next="hrkt" output="キ"/>
+            <when state="hrkt_M" next="hrkt" output="ミ"/>
+            <when state="hrkt_N" next="hrkt" output="ニ"/>
+            <when state="hrkt_P" next="hrkt" output="ピ"/>
+            <when state="hrkt_R" next="hrkt" output="リ"/>
+            <when state="hrkt_S" next="hrkt" output="シ"/>
+            <when state="hrkt_T" next="hrkt" output="チ"/>
+            <when state="hrkt_Z" next="hrkt" output="ジ"/>
+        </action>
+        <action id="j">
+            <when state="none" output="j"/>
+            <when state="arab" next="arab" output="ج"/>
+            <when state="armn" output="ձ"/>
+            <when state="armn_2" output="ջ"/>
+            <when state="arrows_basic_dvorak" output="↘"/>
+            <when state="beng" next="beng" output="জ"/>
+            <when state="cans" next="cans_j"/>
+            <when state="cyrl" next="cyrl" output="ж"/>
+            <when state="cyrl_descender" next="cyrl" output="җ"/>
+            <when state="deva" next="deva" output="ज"/>
+            <when state="deva_dot_below" output="ज़"/>
+            <when state="deva_line_below" output="ॼ"/>
+            <when state="geez" next="geez_j"/>
+            <when state="geor" output="ჯ"/>
+            <when state="grek" next="grek" output="ς"/>
+            <when state="hebr" next="hebr" output="צ"/>
+            <when state="khmr" next="khmr" output="ជ"/>
+            <when state="laoo" next="laoo" output="ງ"/>
+            <when state="latn_bar" output="ɉ"/>
+            <when state="latn_hook_palatal" output="ʝ"/>
+            <when state="latn_rotated_lower" output="ſ̣"/>
+            <when state="latn_rotated_upper" output="ɾ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴊ"/>
+            <when state="mong" next="mong" output="ᠵ"/>
+            <when state="mymr" next="mymr" output="ဇ"/>
+            <when state="sinh" next="sinh" output="ජ"/>
+            <when state="taml" next="taml" output="ஜ"/>
+            <when state="tfng" next="tfng" output="ⵊ"/>
+            <when state="thaa" next="thaa" output="ޖ"/>
+            <when state="thai" next="thai" output="ช"/>
+            <when state="tibt" next="tibt" output="ཅ"/>
+        </action>
+        <action id="k">
+            <when state="none" output="k"/>
+            <when state="arab" next="arab" output="ك"/>
+            <when state="armn" output="կ"/>
+            <when state="armn_2" output="ք"/>
+            <when state="beng" next="beng" output="ক"/>
+            <when state="cans" next="cans_k"/>
+            <when state="cyrl" next="cyrl" output="к"/>
+            <when state="cyrl_1" next="cyrl" output="ҡ"/>
+            <when state="cyrl_descender" next="cyrl" output="қ"/>
+            <when state="cyrl_hook" next="cyrl" output="Ӄ"/>
+            <when state="deva" next="deva" output="क"/>
+            <when state="deva_dot_below" output="क़"/>
+            <when state="geez" next="geez_k"/>
+            <when state="geor" output="კ"/>
+            <when state="grek" next="grek" output="κ"/>
+            <when state="hebr" next="hebr" output="כ"/>
+            <when state="hebr_dagesh" output="כּ"/>
+            <when state="hrkt" next="hrkt_k"/>
+            <when state="khmr" next="khmr" output="ក"/>
+            <when state="laoo" next="laoo" output="ກ"/>
+            <when state="latn_bar" output="ꝁ"/>
+            <when state="latn_hook_palatal" output="ᶄ"/>
+            <when state="latn_rotated_lower" output="ʞ"/>
+            <when state="latn_slash" output="ꝃ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴋ"/>
+            <when state="mong" next="mong" output="ᠬ"/>
+            <when state="mymr" next="mymr" output="က"/>
+            <when state="sinh" next="sinh" output="ක"/>
+            <when state="taml" next="taml" output="க"/>
+            <when state="tfng" next="tfng" output="ⴽ"/>
+            <when state="thaa" next="thaa" output="ކ"/>
+            <when state="thai" next="thai" output="ก"/>
+            <when state="tibt" next="tibt" output="ཀ"/>
+        </action>
+        <action id="khmr">
+            <when state="none" next="khmr"/>
+        </action>
+        <action id="l">
+            <when state="none" output="l"/>
+            <when state="arab" next="arab" output="ل"/>
+            <when state="arab_hacek" output="ڵ"/>
+            <when state="armn" output="լ"/>
+            <when state="beng" next="beng" output="ল"/>
+            <when state="cans" next="cans_l"/>
+            <when state="cyrl" next="cyrl" output="л"/>
+            <when state="cyrl_hook" next="cyrl" output="ԡ"/>
+            <when state="cyrl_i" next="cyrl" output="љ"/>
+            <when state="deva" next="deva" output="ल"/>
+            <when state="geez" next="geez_l"/>
+            <when state="geor" output="ლ"/>
+            <when state="grek" next="grek" output="λ"/>
+            <when state="hebr" next="hebr" output="ל"/>
+            <when state="hrkt" next="hrkt" output="ん"/>
+            <when state="khmr" next="khmr" output="ល"/>
+            <when state="laoo" next="laoo" output="ລ"/>
+            <when state="latn_bar" output="ƚ"/>
+            <when state="latn_hook_palatal" output="ᶅ"/>
+            <when state="latn_hook_retroflex" output="ɭ"/>
+            <when state="latn_rotated_lower" output="ꞁ"/>
+            <when state="latn_slash" output="ł"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ʟ"/>
+            <when state="mong" next="mong" output="ᠯ"/>
+            <when state="mymr" next="mymr" output="လ"/>
+            <when state="sinh" next="sinh" output="ල"/>
+            <when state="taml" next="taml" output="ல"/>
+            <when state="tfng" next="tfng" output="ⵍ"/>
+            <when state="thaa" next="thaa" output="ލ"/>
+            <when state="thai" next="thai" output="ล"/>
+            <when state="tibt" next="tibt" output="ལ"/>
+        </action>
+        <action id="laoo">
+            <when state="none" next="laoo"/>
+        </action>
+        <action id="m">
+            <when state="none" output="m"/>
+            <when state="arab" next="arab" output="م"/>
+            <when state="armn" output="մ"/>
+            <when state="beng" next="beng" output="ম"/>
+            <when state="cans" next="cans_m"/>
+            <when state="cyrl" next="cyrl" output="м"/>
+            <when state="deva" next="deva" output="म"/>
+            <when state="geez" next="geez_m"/>
+            <when state="geor" output="მ"/>
+            <when state="grek" next="grek" output="μ"/>
+            <when state="hebr" next="hebr" output="מ"/>
+            <when state="hrkt" next="hrkt_m"/>
+            <when state="khmr" next="khmr" output="ម"/>
+            <when state="laoo" next="laoo" output="ມ"/>
+            <when state="latn_hook_palatal" output="ɱ"/>
+            <when state="latn_rotated_lower" output="ɯ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴍ"/>
+            <when state="mong" next="mong" output="ᠮ"/>
+            <when state="mymr" next="mymr" output="မ"/>
+            <when state="sinh" next="sinh" output="ම"/>
+            <when state="taml" next="taml" output="ம"/>
+            <when state="tfng" next="tfng" output="ⵎ"/>
+            <when state="thaa" next="thaa" output="މ"/>
+            <when state="thai" next="thai" output="ม"/>
+            <when state="tibt" next="tibt" output="མ"/>
+        </action>
+        <action id="math">
+            <when state="none" next="math"/>
+        </action>
+        <action id="mymr">
+            <when state="none" next="mymr"/>
+        </action>
+        <action id="n">
+            <when state="none" output="n"/>
+            <when state="arab" next="arab" output="ن"/>
+            <when state="arab_ring_below" output="ڼ"/>
+            <when state="armn" output="ն"/>
+            <when state="beng" next="beng" output="ন"/>
+            <when state="cans" next="cans_n"/>
+            <when state="cyrl" next="cyrl" output="н"/>
+            <when state="cyrl_descender" next="cyrl" output="ң"/>
+            <when state="cyrl_hook" next="cyrl" output="ӈ"/>
+            <when state="cyrl_i" next="cyrl" output="њ"/>
+            <when state="deva" next="deva" output="न"/>
+            <when state="geez" next="geez_n"/>
+            <when state="geor" output="ნ"/>
+            <when state="grek" next="grek" output="ν"/>
+            <when state="hebr" next="hebr" output="נ"/>
+            <when state="hrkt" next="hrkt_n"/>
+            <when state="khmr" next="khmr" output="ន"/>
+            <when state="laoo" next="laoo" output="ນ"/>
+            <when state="latn_hook_palatal" output="ŋ"/>
+            <when state="latn_hook_retroflex" output="ɳ"/>
+            <when state="latn_rotated_lower" output="u"/>
+            <when state="latn_rotated_upper" output="ɴ"/>
+            <when state="latn_slash" output="ꞥ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ɴ"/>
+            <when state="math" output="∩"/>
+            <when state="mong" next="mong" output="ᠨ"/>
+            <when state="mymr" next="mymr" output="န"/>
+            <when state="sinh" next="sinh" output="න"/>
+            <when state="taml" next="taml" output="ந"/>
+            <when state="tfng" next="tfng" output="ⵏ"/>
+            <when state="thaa" next="thaa" output="ނ"/>
+            <when state="thai" next="thai" output="น"/>
+            <when state="tibt" next="tibt" output="ན"/>
+        </action>
+        <action id="o">
+            <when state="none" output="o"/>
+            <when state="arab" next="arab" output="ه"/>
+            <when state="armn" output="օ"/>
+            <when state="cyrl" next="cyrl" output="о"/>
+            <when state="cyrl_1" next="cyrl" output="ҩ"/>
+            <when state="cyrl_i" next="cyrl" output="ё"/>
+            <when state="cyrl_stroke" next="cyrl" output="ө"/>
+            <when state="deva" next="deva" output="ु"/>
+            <when state="geez" output="ኡ"/>
+            <when state="geez_b" output="ቡ"/>
+            <when state="geez_c" output="ቹ"/>
+            <when state="geez_d" output="ዱ"/>
+            <when state="geez_f" output="ፉ"/>
+            <when state="geez_g" output="ጉ"/>
+            <when state="geez_h" output="ሁ"/>
+            <when state="geez_h1" output="ሑ"/>
+            <when state="geez_h2" output="ኁ"/>
+            <when state="geez_j" output="ጁ"/>
+            <when state="geez_k" output="ኩ"/>
+            <when state="geez_k1" output="ቁ"/>
+            <when state="geez_l" output="ሉ"/>
+            <when state="geez_m" output="ሙ"/>
+            <when state="geez_n" output="ኑ"/>
+            <when state="geez_p" output="ጱ"/>
+            <when state="geez_r" output="ሩ"/>
+            <when state="geez_s" output="ሱ"/>
+            <when state="geez_s1" output="ሡ"/>
+            <when state="geez_t" output="ቱ"/>
+            <when state="geez_t1" output="ጡ"/>
+            <when state="geez_w" output="ዉ"/>
+            <when state="geez_y" output="ዩ"/>
+            <when state="geez_z" output="ዙ"/>
+            <when state="geor" output="ო"/>
+            <when state="grek" next="grek" output="ο"/>
+            <when state="hebr" next="hebr" output="ע"/>
+            <when state="hrkt" next="hrkt" output="お"/>
+            <when state="hrkt_b" next="hrkt" output="ぼ"/>
+            <when state="hrkt_d" next="hrkt" output="ど"/>
+            <when state="hrkt_g" next="hrkt" output="ご"/>
+            <when state="hrkt_h" next="hrkt" output="ほ"/>
+            <when state="hrkt_k" next="hrkt" output="こ"/>
+            <when state="hrkt_m" next="hrkt" output="も"/>
+            <when state="hrkt_n" next="hrkt" output="の"/>
+            <when state="hrkt_p" next="hrkt" output="ぽ"/>
+            <when state="hrkt_r" next="hrkt" output="ろ"/>
+            <when state="hrkt_s" next="hrkt" output="そ"/>
+            <when state="hrkt_t" next="hrkt" output="と"/>
+            <when state="hrkt_w" next="hrkt" output="を"/>
+            <when state="hrkt_y" next="hrkt" output="よ"/>
+            <when state="hrkt_z" next="hrkt" output="ぞ"/>
+            <when state="latn_bar" output="ɵ"/>
+            <when state="latn_e" output="œ"/>
+            <when state="latn_extensions" output="ɔ"/>
+            <when state="latn_rotated_lower" output="o"/>
+            <when state="latn_rotated_upper" output="ᴏ"/>
+            <when state="latn_slash" output="ø"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴏ"/>
+            <when state="mong" next="mong" output="ᠣ"/>
+            <when state="tfng" next="tfng" output="ⵧ"/>
+            <when state="thaa" next="thaa" output="ޮ"/>
+            <when state="hrkt_B" next="hrkt" output="ボ"/>
+            <when state="hrkt_D" next="hrkt" output="ド"/>
+            <when state="hrkt_G" next="hrkt" output="ゴ"/>
+            <when state="hrkt_H" next="hrkt" output="ホ"/>
+            <when state="hrkt_K" next="hrkt" output="コ"/>
+            <when state="hrkt_M" next="hrkt" output="モ"/>
+            <when state="hrkt_N" next="hrkt" output="ノ"/>
+            <when state="hrkt_P" next="hrkt" output="ポ"/>
+            <when state="hrkt_R" next="hrkt" output="ロ"/>
+            <when state="hrkt_S" next="hrkt" output="ソ"/>
+            <when state="hrkt_T" next="hrkt" output="ト"/>
+            <when state="hrkt_W" next="hrkt" output="ヲ"/>
+            <when state="hrkt_Y" next="hrkt" output="ヨ"/>
+            <when state="hrkt_Z" next="hrkt" output="ゾ"/>
+            <when state="hrkt_L" next="hrkt" output="ォ"/>
+        </action>
+        <action id="p">
+            <when state="none" output="p"/>
+            <when state="arab" next="arab" output="پ"/>
+            <when state="armn" output="պ"/>
+            <when state="armn_2" output="փ"/>
+            <when state="beng" next="beng" output="প"/>
+            <when state="cans" next="cans_p"/>
+            <when state="cyrl" next="cyrl" output="п"/>
+            <when state="cyrl_descender" next="cyrl" output="ԥ"/>
+            <when state="deva" next="deva" output="प"/>
+            <when state="geez" next="geez_p"/>
+            <when state="geor" output="პ"/>
+            <when state="grek" next="grek" output="π"/>
+            <when state="hebr" next="hebr" output="פ"/>
+            <when state="hrkt" next="hrkt_p"/>
+            <when state="khmr" next="khmr" output="ផ"/>
+            <when state="laoo" next="laoo" output="ປ"/>
+            <when state="latn_bar" output="ᵽ"/>
+            <when state="latn_hook_palatal" output="ᶈ"/>
+            <when state="latn_rotated_lower" output="d"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴘ"/>
+            <when state="mong" next="mong" output="ᠫ"/>
+            <when state="mymr" next="mymr" output="ပ"/>
+            <when state="sinh" next="sinh" output="ප"/>
+            <when state="taml" next="taml" output="ப"/>
+            <when state="tfng" next="tfng" output="ⵒ"/>
+            <when state="thaa" next="thaa" output="ޕ"/>
+            <when state="thai" next="thai" output="ป"/>
+            <when state="tibt" next="tibt" output="པ"/>
+        </action>
+        <action id="q">
+            <when state="none" output="q"/>
+            <when state="arab" next="arab" output="ق"/>
+            <when state="armn" output="ղ"/>
+            <when state="arrows_basic_dvorak" output="↓"/>
+            <when state="cans" next="cans_q"/>
+            <when state="cyrl_1" next="cyrl" output="ԛ"/>
+            <when state="deva" next="deva" output="ै"/>
+            <when state="geor" output="ქ"/>
+            <when state="grek" next="grek" output="θ"/>
+            <when state="hebr" next="hebr" output="ק"/>
+            <when state="laoo" next="laoo" output="ຖ"/>
+            <when state="latn_rotated_lower" output="b"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ꞯ"/>
+            <when state="mong" next="mong" output="ᡂ"/>
+            <when state="tfng" next="tfng" output="ⵇ"/>
+            <when state="tibt" next="tibt" output="ཆ"/>
+        </action>
+        <action id="r">
+            <when state="none" output="r"/>
+            <when state="arab" next="arab" output="ر"/>
+            <when state="arab_4_dots" output="ڑ"/>
+            <when state="arab_hacek" output="ڕ"/>
+            <when state="arab_ring_below" output="ړ"/>
+            <when state="armn" output="ռ"/>
+            <when state="armn_2" output="ր"/>
+            <when state="beng" next="beng" output="র"/>
+            <when state="cans" next="cans_r"/>
+            <when state="cyrl" next="cyrl" output="р"/>
+            <when state="deva" next="deva" output="र"/>
+            <when state="geez" next="geez_r"/>
+            <when state="geor" output="რ"/>
+            <when state="grek" next="grek" output="ρ"/>
+            <when state="hebr" next="hebr" output="ר"/>
+            <when state="hrkt" next="hrkt_r"/>
+            <when state="khmr" next="khmr" output="រ"/>
+            <when state="laoo" next="laoo" output="ຣ"/>
+            <when state="latn_bar" output="ɍ"/>
+            <when state="latn_extensions" output="ɾ"/>
+            <when state="latn_hook_palatal" output="ᶉ"/>
+            <when state="latn_hook_retroflex" output="ɽ"/>
+            <when state="latn_rotated_lower" output="ɹ"/>
+            <when state="latn_rotated_upper" output="ᴚ"/>
+            <when state="latn_slash" output="ꞧ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ʀ"/>
+            <when state="mong" next="mong" output="ᠷ"/>
+            <when state="mymr" next="mymr" output="ရ"/>
+            <when state="sinh" next="sinh" output="ර"/>
+            <when state="taml" next="taml" output="ர"/>
+            <when state="tfng" next="tfng" output="ⵔ"/>
+            <when state="thaa" next="thaa" output="ރ"/>
+            <when state="thai" next="thai" output="ร"/>
+            <when state="tibt" next="tibt" output="ར"/>
+        </action>
+        <action id="s">
+            <when state="none" output="s"/>
+            <when state="arab" next="arab" output="س"/>
+            <when state="armn" output="ս"/>
+            <when state="armn_2" output="շ"/>
+            <when state="beng" next="beng" output="স"/>
+            <when state="cans" next="cans_s"/>
+            <when state="cyrl" next="cyrl" output="с"/>
+            <when state="cyrl_1" next="cyrl" output="ҫ"/>
+            <when state="deva" next="deva" output="स"/>
+            <when state="geez" next="geez_s"/>
+            <when state="geor" output="ს"/>
+            <when state="grek" next="grek" output="σ"/>
+            <when state="hebr" next="hebr" output="ש"/>
+            <when state="hrkt" next="hrkt_s"/>
+            <when state="khmr" next="khmr" output="ស"/>
+            <when state="laoo" next="laoo" output="ສ"/>
+            <when state="latn_extensions" output="ß"/>
+            <when state="latn_hook_palatal" output="ᶊ"/>
+            <when state="latn_hook_retroflex" output="ʂ"/>
+            <when state="latn_rotated_lower" output="s"/>
+            <when state="latn_rotated_upper" output="ꜱ"/>
+            <when state="latn_slash" output="ꞩ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ꜱ"/>
+            <when state="math" output="∫"/>
+            <when state="mong" next="mong" output="ᠰ"/>
+            <when state="mymr" next="mymr" output="သ"/>
+            <when state="sinh" next="sinh" output="ස"/>
+            <when state="taml" next="taml" output="ச"/>
+            <when state="tfng" next="tfng" output="ⵙ"/>
+            <when state="thaa" next="thaa" output="ސ"/>
+            <when state="thai" next="thai" output="ส"/>
+        </action>
+        <action id="sinh">
+            <when state="none" next="sinh"/>
+        </action>
+        <action id="t">
+            <when state="none" output="t"/>
+            <when state="arab" next="arab" output="ت"/>
+            <when state="arab_1_below" next="arab" output="تٜ"/>
+            <when state="arab_4_dots" output="ٹ"/>
+            <when state="arab_ring_below" output="ټ"/>
+            <when state="armn" output="տ"/>
+            <when state="armn_2" output="թ"/>
+            <when state="beng" next="beng" output="ত"/>
+            <when state="cans" next="cans_t"/>
+            <when state="cyrl" next="cyrl" output="т"/>
+            <when state="deva" next="deva" output="त"/>
+            <when state="geez" next="geez_t"/>
+            <when state="geor" output="ტ"/>
+            <when state="grek" next="grek" output="τ"/>
+            <when state="hebr" next="hebr" output="ט"/>
+            <when state="hrkt" next="hrkt_t"/>
+            <when state="khmr" next="khmr" output="ត"/>
+            <when state="laoo" next="laoo" output="ຕ"/>
+            <when state="latn_bar" output="ŧ"/>
+            <when state="latn_extensions" output="þ"/>
+            <when state="latn_hook_palatal" output="ƫ"/>
+            <when state="latn_hook_retroflex" output="ʈ"/>
+            <when state="latn_rotated_lower" output="ʇ"/>
+            <when state="latn_slash" output="ⱦ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴛ"/>
+            <when state="math" output="⊥"/>
+            <when state="mong" next="mong" output="ᠲ"/>
+            <when state="mymr" next="mymr" output="တ"/>
+            <when state="sinh" next="sinh" output="ත"/>
+            <when state="taml" next="taml" output="த"/>
+            <when state="tfng" next="tfng" output="ⵜ"/>
+            <when state="thaa" next="thaa" output="ތ"/>
+            <when state="thai" next="thai" output="ต"/>
+            <when state="tibt" next="tibt" output="ཋ"/>
+        </action>
+        <action id="taml">
+            <when state="none" next="taml"/>
+        </action>
+        <action id="tfng">
+            <when state="none" next="tfng"/>
+        </action>
+        <action id="thaa">
+            <when state="none" next="thaa"/>
+        </action>
+        <action id="thai">
+            <when state="none" next="thai"/>
+        </action>
+        <action id="tibt">
+            <when state="none" next="tibt"/>
+        </action>
+        <action id="u">
+            <when state="none" output="u"/>
+            <when state="arab" next="arab" output="و"/>
+            <when state="arab_hacek" output="ۆ"/>
+            <when state="armn" output="ո"/>
+            <when state="beng" next="beng" output="উ"/>
+            <when state="cans" next="cans" output="ᐅ"/>
+            <when state="cans_g" next="cans" output="ᒍ"/>
+            <when state="cans_h" next="cans" output="ᕷ"/>
+            <when state="cans_j" next="cans" output="ᔪ"/>
+            <when state="cans_k" next="cans" output="ᑯ"/>
+            <when state="cans_l" next="cans" output="ᓗ"/>
+            <when state="cans_m" next="cans" output="ᒧ"/>
+            <when state="cans_n" next="cans" output="ᓄ"/>
+            <when state="cans_p" next="cans" output="ᐳ"/>
+            <when state="cans_q" next="cans" output="ᖁ"/>
+            <when state="cans_r" next="cans" output="ᕈ"/>
+            <when state="cans_s" next="cans" output="ᓱ"/>
+            <when state="cans_t" next="cans" output="ᑐ"/>
+            <when state="cans_v" next="cans" output="ᕗ"/>
+            <when state="cyrl" next="cyrl" output="у"/>
+            <when state="cyrl_1" next="cyrl" output="ү"/>
+            <when state="cyrl_i" next="cyrl" output="ю"/>
+            <when state="deva" next="deva" output="उ"/>
+            <when state="geez" output="ኡ"/>
+            <when state="geez_b" output="ቡ"/>
+            <when state="geez_c" output="ቹ"/>
+            <when state="geez_d" output="ዱ"/>
+            <when state="geez_f" output="ፉ"/>
+            <when state="geez_g" output="ጉ"/>
+            <when state="geez_h" output="ሁ"/>
+            <when state="geez_h1" output="ሑ"/>
+            <when state="geez_h2" output="ኁ"/>
+            <when state="geez_j" output="ጁ"/>
+            <when state="geez_k" output="ኩ"/>
+            <when state="geez_k1" output="ቁ"/>
+            <when state="geez_l" output="ሉ"/>
+            <when state="geez_m" output="ሙ"/>
+            <when state="geez_n" output="ኑ"/>
+            <when state="geez_p" output="ጱ"/>
+            <when state="geez_r" output="ሩ"/>
+            <when state="geez_s" output="ሱ"/>
+            <when state="geez_s1" output="ሡ"/>
+            <when state="geez_t" output="ቱ"/>
+            <when state="geez_t1" output="ጡ"/>
+            <when state="geez_w" output="ዉ"/>
+            <when state="geez_y" output="ዩ"/>
+            <when state="geez_z" output="ዙ"/>
+            <when state="geor" output="უ"/>
+            <when state="grek" next="grek" output="υ"/>
+            <when state="hebr" next="hebr" output="ו"/>
+            <when state="hrkt" next="hrkt" output="う"/>
+            <when state="hrkt_b" next="hrkt" output="ぶ"/>
+            <when state="hrkt_d" next="hrkt" output="づ"/>
+            <when state="hrkt_g" next="hrkt" output="ぐ"/>
+            <when state="hrkt_h" next="hrkt" output="ふ"/>
+            <when state="hrkt_k" next="hrkt" output="く"/>
+            <when state="hrkt_m" next="hrkt" output="む"/>
+            <when state="hrkt_n" next="hrkt" output="ぬ"/>
+            <when state="hrkt_p" next="hrkt" output="ぷ"/>
+            <when state="hrkt_r" next="hrkt" output="る"/>
+            <when state="hrkt_s" next="hrkt" output="す"/>
+            <when state="hrkt_t" next="hrkt" output="つ"/>
+            <when state="hrkt_y" next="hrkt" output="ゆ"/>
+            <when state="hrkt_z" next="hrkt" output="ず"/>
+            <when state="khmr" next="khmr" output="ឧ"/>
+            <when state="latn_bar" output="ʉ"/>
+            <when state="latn_extensions" output="ʊ"/>
+            <when state="latn_hook_retroflex" output="ᶙ"/>
+            <when state="latn_rotated_lower" output="n"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴜ"/>
+            <when state="math" output="∪"/>
+            <when state="mong" next="mong" output="ᠤ"/>
+            <when state="mymr" next="mymr" output="ဥ"/>
+            <when state="sinh" next="sinh" output="උ"/>
+            <when state="taml" next="taml" output="உ"/>
+            <when state="tfng" next="tfng" output="ⵓ"/>
+            <when state="thaa" next="thaa" output="ު"/>
+            <when state="hrkt_B" next="hrkt" output="ブ"/>
+            <when state="hrkt_D" next="hrkt" output="ヅ"/>
+            <when state="hrkt_G" next="hrkt" output="グ"/>
+            <when state="hrkt_H" next="hrkt" output="フ"/>
+            <when state="hrkt_K" next="hrkt" output="ク"/>
+            <when state="hrkt_M" next="hrkt" output="ム"/>
+            <when state="hrkt_N" next="hrkt" output="ヌ"/>
+            <when state="hrkt_P" next="hrkt" output="プ"/>
+            <when state="hrkt_R" next="hrkt" output="ル"/>
+            <when state="hrkt_S" next="hrkt" output="ス"/>
+            <when state="hrkt_T" next="hrkt" output="ツ"/>
+            <when state="hrkt_Y" next="hrkt" output="ユ"/>
+            <when state="hrkt_Z" next="hrkt" output="ズ"/>
+        </action>
+        <action id="v">
+            <when state="none" output="v"/>
+            <when state="arab" next="arab" output="ظ"/>
+            <when state="armn" output="վ"/>
+            <when state="beng" next="beng" output="ব"/>
+            <when state="cans" next="cans_v"/>
+            <when state="cyrl" next="cyrl" output="в"/>
+            <when state="deva" next="deva" output="व"/>
+            <when state="geez" output="ዋ"/>
+            <when state="geez_b" output="ቧ"/>
+            <when state="geez_c" output="ቿ"/>
+            <when state="geez_d" output="ዷ"/>
+            <when state="geez_f" output="ፏ"/>
+            <when state="geez_g" output="ጓ"/>
+            <when state="geez_h1" output="ሗ"/>
+            <when state="geez_h2" output="ኋ"/>
+            <when state="geez_j" output="ጇ"/>
+            <when state="geez_k" output="ኳ"/>
+            <when state="geez_k1" output="ቋ"/>
+            <when state="geez_l" output="ሏ"/>
+            <when state="geez_l1" output="L"/>
+            <when state="geez_m" output="ሟ"/>
+            <when state="geez_n" output="ኗ"/>
+            <when state="geez_p" output="ጷ"/>
+            <when state="geez_r" output="ሯ"/>
+            <when state="geez_s" output="ሷ"/>
+            <when state="geez_s1" output="ሧ"/>
+            <when state="geez_t" output="ቷ"/>
+            <when state="geez_t1" output="ጧ"/>
+            <when state="geez_w" output="ዋ"/>
+            <when state="geez_y" output="ዯ"/>
+            <when state="geez_z" output="ዟ"/>
+            <when state="geor" output="ვ"/>
+            <when state="grek" next="grek" output="ϝ"/>
+            <when state="khmr" next="khmr" output="វ"/>
+            <when state="laoo" next="laoo" output="ວ"/>
+            <when state="latn_extensions" output="ʋ"/>
+            <when state="latn_hook_palatal" output="ᶌ"/>
+            <when state="latn_rotated_lower" output="ʌ"/>
+            <when state="latn_slash" output="ꝟ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴠ"/>
+            <when state="math" output="√"/>
+            <when state="mymr" next="mymr" output="ဝ"/>
+            <when state="sinh" next="sinh" output="ව"/>
+            <when state="taml" next="taml" output="வ"/>
+            <when state="tfng" next="tfng" output="ⵠ"/>
+            <when state="thaa" next="thaa" output="ވ"/>
+            <when state="thai" next="thai" output="ว"/>
+        </action>
+        <action id="w">
+            <when state="none" output="w"/>
+            <when state="arab" next="arab" output="ط"/>
+            <when state="armn" output="ւ"/>
+            <when state="beng" next="beng" output="ট"/>
+            <when state="cyrl" next="cyrl" output="ԝ"/>
+            <when state="deva" next="deva" output="ट"/>
+            <when state="geez" next="geez_w"/>
+            <when state="geor" output="წ"/>
+            <when state="grek" next="grek" output="ω"/>
+            <when state="hrkt" next="hrkt_w"/>
+            <when state="khmr" next="khmr" output="ដ"/>
+            <when state="latn_extensions" output="ɯ"/>
+            <when state="latn_rotated_lower" output="ʍ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴡ"/>
+            <when state="mong" output="ᠸ"/>
+            <when state="mymr" next="mymr" output="ဋ"/>
+            <when state="sinh" next="sinh" output="ට"/>
+            <when state="tfng" next="tfng" output="ⵡ"/>
+            <when state="thai" next="thai" output="ฏ"/>
+        </action>
+        <action id="x">
+            <when state="none" output="x"/>
+            <when state="arab" next="arab" output="ش"/>
+            <when state="armn" next="armn" output="խ"/>
+            <when state="beng" next="beng" output="শ"/>
+            <when state="cyrl" next="cyrl" output="ш"/>
+            <when state="cyrl_descender" output="щ"/>
+            <when state="deva" next="deva" output="श"/>
+            <when state="geor" next="geor" output="ხ"/>
+            <when state="grek" next="grek" output="χ"/>
+            <when state="khmr" next="khmr" output="ឝ"/>
+            <when state="laoo" next="laoo" output="ຜ"/>
+            <when state="latn_extensions" output="ʃ"/>
+            <when state="latn_hook_palatal" output="ᶍ"/>
+            <when state="latn_rotated_lower" output="x"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="x"/>
+            <when state="math" output="×"/>
+            <when state="mong" next="mong" output="ᠱ"/>
+            <when state="mymr" next="mymr" output="ဆ"/>
+            <when state="sinh" next="sinh" output="ශ"/>
+            <when state="taml" next="taml" output="ஶ"/>
+            <when state="tfng" next="tfng" output="ⵅ"/>
+            <when state="thaa" next="thaa" output="ށ"/>
+            <when state="thai" next="thai" output="ศ"/>
+        </action>
+        <action id="y">
+            <when state="none" output="y"/>
+            <when state="arab" next="arab" output="ض"/>
+            <when state="armn" next="armn" output="յ"/>
+            <when state="beng" next="beng" output="য"/>
+            <when state="cyrl" next="cyrl" output="ы"/>
+            <when state="cyrl_1" next="cyrl" output="ѵ"/>
+            <when state="deva" next="deva" output="य"/>
+            <when state="geez" next="geez_y"/>
+            <when state="geor" output="ყ"/>
+            <when state="grek" next="grek" output="ψ"/>
+            <when state="hrkt" next="hrkt_y"/>
+            <when state="khmr" next="khmr" output="យ"/>
+            <when state="laoo" next="laoo" output="ຢ"/>
+            <when state="latn_bar" output="ɏ"/>
+            <when state="latn_extensions" output="ƴ"/>
+            <when state="latn_rotated_lower" output="ʎ"/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ʏ"/>
+            <when state="mong" output="ᠶ"/>
+            <when state="mymr" next="mymr" output="ယ"/>
+            <when state="sinh" next="sinh" output="ය"/>
+            <when state="taml" next="taml" output="ய"/>
+            <when state="tfng" next="tfng" output="ⵢ"/>
+            <when state="thaa" next="thaa" output="ޔ"/>
+            <when state="thai" next="thai" output="ย"/>
+            <when state="tibt" next="tibt" output="ཡ"/>
+        </action>
+        <action id="z">
+            <when state="none" output="z"/>
+            <when state="arab" next="arab" output="ز"/>
+            <when state="armn" next="armn" output="զ"/>
+            <when state="armn_2" output="ժ"/>
+            <when state="beng" next="beng" output="ড"/>
+            <when state="cyrl" next="cyrl" output="з"/>
+            <when state="cyrl_1" next="cyrl" output="ӡ"/>
+            <when state="cyrl_2" next="cyrl" output="ѕ"/>
+            <when state="deva" next="deva" output="ड"/>
+            <when state="deva_line_below" output="ॾ"/>
+            <when state="geez" next="geez_z"/>
+            <when state="geor" output="ზ"/>
+            <when state="grek" next="grek" output="ζ"/>
+            <when state="hebr" next="hebr" output="ז"/>
+            <when state="hrkt" next="hrkt_z"/>
+            <when state="khmr" next="khmr" output="ឌ"/>
+            <when state="latn_bar" output="ƶ"/>
+            <when state="latn_extensions" output="ʒ"/>
+            <when state="latn_hook_palatal" output="ᶎ"/>
+            <when state="latn_hook_retroflex" output="ʐ"/>
+            <when state="latn_rotated_lower" output="z"/>
+            <when state="latn_rotated_upper" output="ᴢ"/>
+            <when state="latn_slash" output=""/>
+            <when state="latn_small_caps" next="latn_small_caps" output="ᴢ"/>
+            <when state="mong" output="ᠽ"/>
+            <when state="mymr" next="mymr" output="ဍ"/>
+            <when state="sinh" next="sinh" output="ඩ"/>
+            <when state="tfng" next="tfng" output="ⵣ"/>
+            <when state="thaa" next="thaa" output="ޒ"/>
+            <when state="thai" next="thai" output="ฑ"/>
+            <when state="tibt" next="tibt" output="ཙ"/>
+        </action>
+        <action id="|">
+            <when state="none" output="|"/>
+            <when state="arrows_basic_dvorak" output="↕"/>
+            <when state="deva" next="deva" output="पॉ"/>
+        </action>
+        <action id="~">
+            <when state="none" output="&#x0026;"/>
+            <when state="deva" next="deva" output="ा"/>
+        </action>
+        <action id=" ">
+            <when state="none" output=" "/>
+        </action>
+    </actions>
+    <terminators>
+        <when state="arab" output="ا"/>
+        <when state="arab_4_dots" output="ط"/>
+        <when state="arab_hacek" output="٧"/>
+        <when state="arab_hamza_above" output="ء"/>
+        <when state="arab_ring_below" output="ه"/>
+        <when state="armn" output="Ա"/>
+        <when state="armn_2" output=""/>
+        <when state="arrows_basic_dvorak" output="→"/>
+        <when state="beng" output="অ"/>
+        <when state="cans" output="ᐃ"/>
+        <when state="cans_g" output="ᒋ"/>
+        <when state="cans_h" output="ᕵ"/>
+        <when state="cans_j" output="ᔨ"/>
+        <when state="cans_k" output="ᑭ"/>
+        <when state="cans_l" output="ᓕ"/>
+        <when state="cans_m" output="ᒥ"/>
+        <when state="cans_n" output="ᓂ"/>
+        <when state="cans_p" output="ᐱ"/>
+        <when state="cans_q" output="ᕿ"/>
+        <when state="cans_r" output="ᕆ"/>
+        <when state="cans_s" output="ᓯ"/>
+        <when state="cans_t" output="ᑎ"/>
+        <when state="cans_v" output="ᕕ"/>
+        <when state="cyrl" output="д"/>
+        <when state="cyrl_1" output="д&#x0027;"/>
+        <when state="cyrl_2" output="д&#x0022;"/>
+        <when state="cyrl_descender" output=","/>
+        <when state="cyrl_i" output="й"/>
+        <when state="cyrl_stroke" output="-"/>
+        <when state="deva" output="अ"/>
+        <when state="deva_dot_below" output="."/>
+        <when state="deva_line_below" output="_"/>
+        <when state="geez" output="አ"/>
+        <when state="geez_b" output="በ"/>
+        <when state="geez_c" output="ጨ"/>
+        <when state="geez_d" output="ደ"/>
+        <when state="geez_f" output="ፈ"/>
+        <when state="geez_g" output="ገ"/>
+        <when state="geez_h" output="ሀ"/>
+        <when state="geez_h1" output="ሕ"/>
+        <when state="geez_h2" output="ኅ"/>
+        <when state="geez_j" output="ጀ"/>
+        <when state="geez_k" output="ከ"/>
+        <when state="geez_k1" output="ቀ"/>
+        <when state="geez_l" output="ለ"/>
+        <when state="geez_m" output="መ"/>
+        <when state="geez_n" output="ነ"/>
+        <when state="geez_p" output="ጰ"/>
+        <when state="geez_r" output="ረ"/>
+        <when state="geez_s" output="ሰ"/>
+        <when state="geez_s1" output="ሠ"/>
+        <when state="geez_t" output="ተ"/>
+        <when state="geez_t1" output="ጠ"/>
+        <when state="geez_w" output="ወ"/>
+        <when state="geez_y" output="የ"/>
+        <when state="geez_z" output="ዘ"/>
+        <when state="geor" output="რ"/>
+        <when state="grek" output="α"/>
+        <when state="hebr" output="א"/>
+        <when state="hebr_dagesh" output=""/>
+        <when state="hrkt" output="あ"/>
+        <when state="hrkt_b" output="ぶ"/>
+        <when state="hrkt_d" output="ど"/>
+        <when state="hrkt_g" output="ぐ"/>
+        <when state="hrkt_h" output="ふ"/>
+        <when state="hrkt_k" output="く"/>
+        <when state="hrkt_m" output="む"/>
+        <when state="hrkt_n" output="の"/>
+        <when state="hrkt_p" output="ぷ"/>
+        <when state="hrkt_r" output="る"/>
+        <when state="hrkt_s" output="す"/>
+        <when state="hrkt_t" output="と"/>
+        <when state="hrkt_w" output="を"/>
+        <when state="hrkt_y" output="ゆ"/>
+        <when state="hrkt_z" output="ず"/>
+        <when state="hrkt_B" output="ブ"/>
+        <when state="hrkt_D" output="ド"/>
+        <when state="hrkt_G" output="グ"/>
+        <when state="hrkt_H" output="フ"/>
+        <when state="hrkt_K" output="ク"/>
+        <when state="hrkt_M" output="ム"/>
+        <when state="hrkt_N" output="ノ"/>
+        <when state="hrkt_P" output="プ"/>
+        <when state="hrkt_R" output="ル"/>
+        <when state="hrkt_S" output="ス"/>
+        <when state="hrkt_T" output="ト"/>
+        <when state="hrkt_W" output="ワ"/>
+        <when state="hrkt_Y" output="ユ"/>
+        <when state="hrkt_Z" output="ズ"/>
+        <when state="khmr" output="អ"/>
+        <when state="laoo" output="ອ"/>
+        <when state="latn_bar" output="-"/>
+        <when state="latn_e" output="æ"/>
+        <when state="latn_extensions" output="x"/>
+        <when state="latn_tones" output="l"/>
+        <when state="latn_hook_palatal" output=" ̡"/>
+        <when state="latn_hook_retroflex" output="◌̢"/>
+        <when state="latn_rotated_lower" output="ɐ"/>
+        <when state="latn_rotated_upper" output="Ɐ"/>
+        <when state="latn_slash" output="/"/>
+        <when state="latn_small_caps" output="ᴀ"/>
+        <when state="math" output="="/>
+        <when state="mong" output="ᠪ"/>
+        <when state="mymr" output="အ"/>
+        <when state="sinh" output="අ"/>
+        <when state="taml" output="அ"/>
+        <when state="tfng" output="ⵥ"/>
+        <when state="thaa" output="ހ"/>
+        <when state="thai" output="อ"/>
+        <when state="tibt" output="ཨ"/>
+    </terminators>
+</keyboard>
