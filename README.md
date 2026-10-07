@@ -59,13 +59,8 @@ Albanian, Arabic, romanization (ALA-LC; ISO), Arabic, Asturian, Azerbaijani, Bel
 
 #### Problem 1
 Many non-latin alphabets have letters for sounds that latin doesn't have, especially sounds like "ts", "ch", "zh", and "sh".
-*Solution*: Use the universal romanization scheme, and allow typing of diacritics. To get russian "ц", type "ts". To get "тс", type "t-s". Common sounds like "sh" are simply "x".
+*Solution*: Use the universal romanization scheme, and allow typing of diacritics. In general, type "c" for <s> sounds, "s" for <sh>, "j" for <zh>, and "tc" for <ts>, and "ts" for <ch>. To get "тс", type "t's".
 
 #### Problem 2
 Languages have messy writing systems. English has 3 letters that all make the /k/ sound (q; k; c), and many languages also have the same kind of problem. 
 *Solution*: For these cases, we use "t", "t1" and "t2", and which one is which will be sorted alphabetically. So in English, you can imagine that "c" maps to "k", "k" maps "k1", and "q" maps to "k2".
-
-#### Example 1
-- Perso-Arabic script has a /gh/ sound and a /g/ sound.
-- Greek has a single letter which can sound like /gh/ or /g/.
-Therefore, Greek would allow you to simply type /g/, But in perso-arabic script, there is a separate letter for /g/ and /gh/. So you would have to distinguish the two when you write Persian.
