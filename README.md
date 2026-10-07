@@ -1,4 +1,4 @@
-# Sýmβoard
+# Oṅeβoard
 
 Type anything.
 
