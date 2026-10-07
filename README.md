@@ -15,11 +15,7 @@ You shouldn't have to learn a new keyboard layout for every new language, or loo
 
 ## How?
 
-There are 2 ways to type:
-1. Type-by-shape: Type characters by using visually similar characters
-2. Type-by-sound: Type characters by how they sound
-
-We use a universal sound system (romanization), which maps to the letters in every other alphabet.
+We use a universal sound system, which maps to the letters in every other alphabet.
 
 Any combining characters, like the accent marks in á and ä, can be found above graphically similar charcters, so that ȧ = a + .
 
@@ -30,8 +26,8 @@ Therefore, if i want to type russian but i don't know how to write it, that i ca
 This keyboard was designed according to the following tenets:
 
 1. *Make typing in english fast, comfortable, and low-effort*
-  - The alphabet is arranged in the Dvorak layout. Common English punctuation is all in the lower 3 rows
-2. *Support other common symbols in an intuitive way (EG greek, cyrillic, arrows, math symbols, japanese)*
+  - Common English punctuation is all in the lower 3 rows
+2. *Support all other symbols in one universal way (EG greek, cyrillic, arrows, math symbols, japanese)*
   - Use a universal romanization system that maps all non-latin characters to similar sounding latin letters. For example, ك = k, к = k, and か = k + a.
   - Diacritics are placed near or above graphically similar characters. For example, ȧ = a + .
 
